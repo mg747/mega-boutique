@@ -1,0 +1,30 @@
+[
+    {
+       "pk": 4,
+       "model": "products.product",
+       "fields": {
+          "sku": "",
+          "name": "TOM FORD - Leather-Trimmed Cotton-Velvet Padded Quilted Down Jacket - Black ",
+          "description": "TOM FORD knows how to make outerwear refined and sophisticated. This down jacket is made from plush cotton-velvet and trimmed with tonal leather for a subtle textural contrast. The hood is handily detachable so you can streamline your look when it's dry out\" 100% Cotton",
+          "price": 4039,
+          "category": 3,
+          "rating": 5,
+          "image_url": "https://clothbase.s3.amazonaws.com/uploads/b5b0751f-9d31-4a87-9eeb-dfcb91f2cecf/image.jpg",
+          "image": "image1.jpg"
+       }
+    },
+    {
+       "pk": 7,
+       "model": "products.product",
+       "fields": {
+          "sku": "",
+          "name": "Gucci GG Rhombus Vacation Shirt",
+          "description": "Inspired by horse racing, Gucci’s latest collection is a colourful line-up of clobber that includes this vacation shirt which pays tribute to the uniforms worn by jockeys. Expertly crafted in Italy from pure silk, its lightweight and breathable ground serves as a canvas for the multi-coloured geometric print. Detailed with the label’s iconic interlocking G’s throughout, this relaxed style is definitely one to place your bet on.\" inseam polyester/rayon/spandex washable imported",
+          "price": 770,
+          "category": 6,
+          "rating": 4.6,
+          "image_url": "https://clothbase.s3.amazonaws.com/uploads/0a077265-f367-43f6-a83b-81166e1de57b/29-11-2021_LL_681209-ZAIDD-1216_1_1.jpg",
+          "image": "29-11-2021_LL_681209-ZAIDD-1216_1_1.jpeg"
+       }
+    }
+]
