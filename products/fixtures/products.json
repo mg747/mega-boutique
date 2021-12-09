@@ -1,30 +1,93 @@
-[
-    {
-       "pk": 4,
-       "model": "products.product",
-       "fields": {
-          "sku": "",
-          "name": "TOM FORD - Leather-Trimmed Cotton-Velvet Padded Quilted Down Jacket - Black ",
-          "description": "TOM FORD knows how to make outerwear refined and sophisticated. This down jacket is made from plush cotton-velvet and trimmed with tonal leather for a subtle textural contrast. The hood is handily detachable so you can streamline your look when it's dry out\" 100% Cotton",
-          "price": 4039,
-          "category": 3,
-          "rating": 5,
-          "image_url": "https://clothbase.s3.amazonaws.com/uploads/b5b0751f-9d31-4a87-9eeb-dfcb91f2cecf/image.jpg",
-          "image": "image1.jpg"
-       }
-    },
-    {
-       "pk": 7,
-       "model": "products.product",
-       "fields": {
-          "sku": "",
-          "name": "Gucci GG Rhombus Vacation Shirt",
-          "description": "Inspired by horse racing, Gucci’s latest collection is a colourful line-up of clobber that includes this vacation shirt which pays tribute to the uniforms worn by jockeys. Expertly crafted in Italy from pure silk, its lightweight and breathable ground serves as a canvas for the multi-coloured geometric print. Detailed with the label’s iconic interlocking G’s throughout, this relaxed style is definitely one to place your bet on.\" inseam polyester/rayon/spandex washable imported",
-          "price": 770,
-          "category": 6,
-          "rating": 4.6,
-          "image_url": "https://clothbase.s3.amazonaws.com/uploads/0a077265-f367-43f6-a83b-81166e1de57b/29-11-2021_LL_681209-ZAIDD-1216_1_1.jpg",
-          "image": "29-11-2021_LL_681209-ZAIDD-1216_1_1.jpeg"
-       }
-    }
+[{
+      "pk": 4,
+      "model": "products.product",
+      "fields": {
+         "sku": "tf4001",
+         "name": "TOM FORD Leather Trimmed Cotton-Velvet Padded Quilted Down Jacket",
+         "description": "TOM FORD knows how to make outerwear refined and sophisticated. This black down jacket is made from plush cotton-velvet and trimmed with tonal leather for a subtle textural contrast. The hood is handily detachable so you can streamline your look when it's dry out\" 100% Cotton",
+         "price": 4039,
+         "category": 4,
+         "rating": 5,
+         "image": "image1.jpg"
+      }
+   },
+   {
+      "pk": 7,
+      "model": "products.product",
+      "fields": {
+         "sku": "gc7001",
+         "name": "Gucci GG Rhombus Vacation Shirt",
+         "description": "Inspired by horse racing, Gucci’s latest collection is a colourful line-up of clobber that includes this vacation shirt which pays tribute to the uniforms worn by jockeys. Expertly crafted in Italy from pure silk, its lightweight and breathable ground serves as a canvas for the multi-coloured geometric print. Detailed with the label’s iconic interlocking G’s throughout, this relaxed style is definitely one to place your bet on.\" inseam polyester/rayon/spandex washable imported",
+         "price": 770,
+         "category": 7,
+         "rating": 4.6,
+         "image": "29-11-2021_LL_681209-ZAIDD-1216_1_1.jpeg"
+      }
+   },
+   {
+      "pk": 14,
+      "model": "products.product",
+      "fields": {
+         "sku": "ln14001",
+         "name": "Lanvin White Calfskin Curb Sneakers",
+         "description": "Low-top mesh and grained calfskin sneakers in white. Perforated detailing and rubberized trim in black at round toe. Lace-up closure. Embossed logo and rubberized pull-tab at padded tongue. Suede trim in grey at sides. Rubberized patch in black at heel counter. Crepe rubber midsole in yellow. Treaded rubber outsole in grey. Silver-tone hardware. Supplier color: White",
+         "price": 804,
+         "category": 14,
+         "rating": 5,
+         "image": "lanvin_white_calfskin_curb_sneakers.jpeg"
+      }
+   },
+   {
+      "pk": 3,
+      "model": "products.product",
+      "fields": {
+         "sku": "ysls3001",
+         "name": "Yves Salomon - Shearling Coat",
+         "description": "You'll be so thankful of investing in this Yves Salomon coat once the weather starts to bite. It's cut from plush, insulating shearling in a comfortable profile that hits about the knee. It's partially lined for ease of layering and resilience.",
+         "price": 3074,
+         "category": 3,
+         "rating": 4.6,
+         "image": "yves_salomon_shearling_coat-brown.jpeg"
+      }
+   },
+   { 
+      "pk": 7,
+      "model": "products.product",
+      "fields": {
+         "sku": "bv7001",
+         "name": "Bottega Veneta Leather Chelsea Boots",
+         "description": "Bottega Veneta's leather boots take practical elements from motorcycle, Chelsea and wellington styles. Designed with elasticated sides and double pull tabs, this Italian-made pair has robust rubber-lug soles and hit about mid-calf, so they'll work particularly well with slim trousers.",
+         "price": 1022,
+         "category": 7,
+         "rating": 3.5,
+         "image": "bottega_veneta_leather_chelsea_boots_green.jpeg"
+      }
+   },
+   {
+      "pk": 5,
+      "model": "products.product",
+      "fields": {
+         "sku": "ami5001",
+         "name": "AMIRI - Wide-Leg Denim Jeans",
+         "description": "AMIRI may be known for its super skinny jeans, but this wide-leg pair proves it handles the relaxed look just as well. They're cut from Italian denim and have a classic blue wash with authentic fading and whiskers in all the right places.",
+         "price": 613,
+         "category": 5,
+         "rating": 4.7,
+         "image": "image.jpeg"
+      }
+   },
+   {
+      "pk": 8,
+      "model": "products.product",
+      "fields": {
+         "sku": "ofw8001",
+         "name": "Off-White  Logo-Jacquard Mohair-Blend Sweater",
+         "description": "Off-White's sweater is jacquard-woven with two of the brand's signatures - packaging tape-inspired stripes along the sleeves and four distinctive arrows on the back. Knitted from fuzzy mohair-blend, it's shaped for a relaxed fit and framed with neatly ribbed trims to hold its structure.",
+         "price": 613,
+         "category": 8,
+         "rating": 4.7,
+         "image": "image.jpeg"
+      }
+   }
+
 ]
