@@ -1,3 +1,4 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto:400,900);
 @media(max-width: 639px) {
 }
 .selector-for-some-widget {
@@ -21,6 +22,66 @@ body {
     color: #555;
     font-family: 'Lato';
 }
+
+header {
+    background:
+      url('');
+    background-size: cover;
+    height: 100vh;
+  }
+  
+  .title {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    text-align: center;
+  }
+
+  h1 {
+    text-transform: uppercase;
+    margin: 0;
+    font-size: 3rem;
+    white-space: nowrap;
+  }
+  h2 {
+    font-size: 2rem;
+  }
+  p {
+    margin: 0;
+    font-size: 1.3rem;
+  }
+  
+  main {
+    max-width: 500px;
+    margin: 20px auto;
+  }
+
+.module {
+    background: 
+      url('/media/12.webp');
+    background-size: cover;
+    width: 500px;
+    height: 500px;
+    margin: 10px 0 0 10px;
+    position: relative;
+    float: center;
+    cursor: pointer;
+  }
+
+.mid h2 {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 900;
+    color: white;
+    text-transform: uppercase;
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    font-size: 2rem;
+    transform: translate(-50%, -50%);
+  }  
 
 .responsive {
     max-width: 100%;
@@ -158,6 +219,7 @@ a.category-badge > span.badge:hover {
 .btt-link {
     cursor: pointer;
 }
+
 /* -------------------------------- Media Queries */
 
 /* Slightly larger container on xl screens */
@@ -192,6 +254,9 @@ a.category-badge > span.badge:hover {
         height: calc(100vh - 116px);
     }
 }
+/* Image content */
+/* Place text in the middle of the image */
+
 /* END OF PAGE Footer */
 footer {
     background-color: #000;
