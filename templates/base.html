@@ -124,10 +124,6 @@
     </header>
 
     {% if messages %}
-    <div class="message-container">
-        <h1>FALL WINTER 21</h1>
-                <p>Discover the collection</p>
-    </div>
     {% endif %}
 
     {% block page_header %}
@@ -137,54 +133,11 @@
     {% endblock %}
 
     {% block postloadjs %}
-    {% endblock %}
+    {% endblock %} 
 
-    <div class="container-fluid" style="background-color: white">
-        <br>
-        <h2 class="text-black">Gift Guide 🎁 </h2>
-        <h3 class="text-black">Holiday gifting made easy for sneakerheads, gamers, tech bros, sports guys, and outdoorsmen alike.</h3>
-        <br>
-    </div>  
-
-    <div class="container-fluid">
-        <img src="/media/dior-fall-winter-2022-collection-001.jpeg" class="img-fluid" max-width: 100%; height: auto; alt="Fall Winter Collection">
-    </div>
-    <br>
-    <div class="container-fluid" style="background-color: white">
-        <main>
-            <br>
-            <img src="/media/002_d92c0e64-7a9e-4618-991f-9498481c6fdb.webp" class="img-fluid" max-width: 100%; height: auto; alt="Fall Winter Collection">
-            <br>
-            <button type="button" class="btn btn-outline-dark">SHOP NOW</button>
-            <h2 class="text-white">THE MODERN CLASSIC STYLE</h2>
-            <button type="button" class="btn btn-outline-dark">SHOP NOW</button>
-            <br>
-            <img src="/media/19-10-2021_TH_1A001-61-539WF-742_1_1.jpeg" class="img-fluid" max-width: 100%; height: auto; alt="Fall Winter Collection">
-            <br>
-            <h2 class="text-white">WINTER ESSENTIALS</h2>
-            <br>
-        </main>
-        </div>
-        <br>
-    <div class="container-fluid">
-        <div class="row row-cols-1 row-cols-md-2">
-            <div class="col mb-4">
-                <div class="card">
-                    <img src='/media/12.webp' class="card-img-top"
-                        alt="-Winter Collection">
-                </div>
-            </div>
-
-            <div class="col mb-4">
-                <div class="card">
-                    <img src='/media/5-1.jpeg' class="card-img-top" alt="Winter Collection">
-                </div>
-            </div>
-        </div>
-
-        <!-- End of page (footer) -->
+    <!-- End of page (footer) -->
+        <div class="container-fluid">
         <footer>
-            <div class="container-fluid">
                 <div class="footer-copyright">
                         <br>
                         <p class="copyright text-muted">Copyright &copy; Mega Boutique. <span id="copyright"></span> VAT
@@ -192,8 +145,8 @@
                         </p>
                         <br>
                     </div>
-                </div>
         </footer>
+        </div>
 
     <script>
         $("#copyright").text(new Date().getFullYear());

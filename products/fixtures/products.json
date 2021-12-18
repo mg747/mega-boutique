@@ -1,53 +1,41 @@
-[{
-   "pk": 14,
+[
+   {
+   "pk": 1,
    "model": "products.product",
    "fields": {
-      "sku": "ln14001",
-      "name": "Lanvin White Calfskin Curb Sneakers",
-      "description": "Low-top mesh and grained calfskin sneakers in white. Perforated detailing and rubberized trim in black at round toe. Lace-up closure. Embossed logo and rubberized pull-tab at padded tongue. Suede trim in grey at sides. Rubberized patch in black at heel counter. Crepe rubber midsole in yellow. Treaded rubber outsole in grey. Silver-tone hardware. Supplier color: White",
+      "sku": "YS3101",
+      "name": "Yves Salomon - Shearling Coat",
+      "description": "You'll be so thankful of investing in this Yves Salomon coat once the weather starts to bite. It's cut from plush, insulating shearling in a comfortable profile that hits about the knee. It's partially lined for ease of layering and resilience.",
       "price": 804,
-      "category": 14,
+      "category": 1,
       "rating": 5,
-      "image": "lanvin_white_calfskin_curb_sneakers.jpeg"
+      "image": "yves_salomon_shearling_coat-brown.jpeg"
+   }
+},
+{ 
+   "pk": 2,
+   "model": "products.product",
+   "fields": {
+      "sku": "",
+      "name": "",
+      "description": "",
+      "price": 174,
+      "category": 3,
+      "rating": 4.6,
+      "image": ""
    }
 },
 {
    "pk": 3,
    "model": "products.product",
    "fields": {
-      "sku": "ysls3001",
-      "name": "Yves Salomon - Shearling Coat",
-      "description": "You'll be so thankful of investing in this Yves Salomon coat once the weather starts to bite. It's cut from plush, insulating shearling in a comfortable profile that hits about the knee. It's partially lined for ease of layering and resilience.",
-      "price": 3074,
-      "category": 3,
-      "rating": 4.6,
-      "image": "yves_salomon_shearling_coat-brown.jpeg"
-   }
-},
-{ 
-   "pk": 10,
-   "model": "products.product",
-   "fields": {
-      "sku": "bv7001",
-      "name": "Bottega Veneta Leather Chelsea Boots",
-      "description": "Bottega Veneta's leather boots take practical elements from motorcycle, Chelsea and wellington styles. Designed with elasticated sides and double pull tabs, this Italian-made pair has robust rubber-lug soles and hit about mid-calf, so they'll work particularly well with slim trousers.",
-      "price": 1022,
-      "category": 10,
-      "rating": 3.5,
-      "image": "bottega_veneta_leather_chelsea_boots_green.jpeg"
-   }
-},
-{
-   "pk": 8,
-   "model": "products.product",
-   "fields": {
-      "sku": "ofw8001",
-      "name": "Off-White  Logo-Jacquard Mohair-Blend Sweater",
-      "description": "Off-White's sweater is jacquard-woven with two of the brand's signatures - packaging tape-inspired stripes along the sleeves and four distinctive arrows on the back. Knitted from fuzzy mohair-blend, it's shaped for a relaxed fit and framed with neatly ribbed trims to hold its structure.",
+      "sku": "",
+      "name": "",
+      "description": "",
       "price": 613,
       "category": 8,
       "rating": 4.7,
-      "image": "image.jpeg"
+      "image": ""
    }
 }
 
