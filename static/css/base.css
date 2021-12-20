@@ -200,9 +200,9 @@ a.category-badge > span.badge:hover {
 /* END OF PAGE Footer */
 .footer {
     background: color #000;
-      text-align: center;  
-      padding: 1em;
-      margin-top: 20px;
-      margin: 0 auto;
-      position: relative;
+    text-align: center;
+    padding: 1em;
+    margin-top: 20px;
+    margin: 0 auto;
+    position: relative;
   }

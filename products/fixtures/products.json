@@ -1,42 +1,249 @@
-[
+[{
+      "pk": 1,
+      "model": "products.product",
+      "fields": {
+         "sku": "NKS101604",
+         "name": "Nike City Made Crew Sweat",
+         "description": "Dress for cold, rainy days with this black sweat from Nike. Crafted from cotton French terry, it's styled black, then overlayed with nylon mesh for added durability and protection from the elements. You'll also find reflective logos printed on the chest and back for a signature finishing touch",
+         "price": 80,
+         "category": 1,
+         "rating": 5,
+         "image": "productimage7.jpeg"
+      }
+   },
    {
-   "pk": 1,
-   "model": "products.product",
-   "fields": {
-      "sku": "YS3101",
-      "name": "Yves Salomon - Shearling Coat",
-      "description": "You'll be so thankful of investing in this Yves Salomon coat once the weather starts to bite. It's cut from plush, insulating shearling in a comfortable profile that hits about the knee. It's partially lined for ease of layering and resilience.",
-      "price": 804,
-      "category": 1,
-      "rating": 5,
-      "image": "yves_salomon_shearling_coat-brown.jpeg"
+      "pk": 2,
+      "model": "products.product",
+      "fields": {
+         "sku": "BS211604",
+         "name": "Balencia X The Simpsons Oversized Popover Hoody",
+         "description": "Balencia teams up with The Simpsons TM & © 20th Television to dress Springfield's most dysfunctional family in iconic pieces from the brand's archive on the chest of this hoody. Made in Italy from fleece-lined cotton, it's styled with dropped shoulders for an oversized look and comes equipped with ribbed trims for added warmth.100% CottonFleeceback JerseyOversizedFixed HoodPouch PocketRibbed TrimsMade in Italy",
+         "price": 174,
+         "category": 2,
+         "rating": 4,
+         "image": "productimage2.jpeg"
+      }
+   },
+   {
+      "pk": 3,
+      "model": "products.product",
+      "fields": {
+         "sku": "FG311604",
+         "name": "Fear of God for Ermenegildo Zegna - Wool Overcoat - Black",
+         "description": "The Fear of God for Ermenegildo Zegna collaboration is inspired by the same sentiment towards a unique craftsmanship, giving life to a new form of hybrid elegance and independent style, says Zegna's Mr Alessandro Sartori. Part of the smart capsule, this coat is tailored from weighty wool, has notch lapels, two spacious pockets and a single vent for ease of movement. Wear it with: Fear of God for Ermenegildo Zegna T-shirt, Fear of God for Ermenegildo Zegna Trousers, Fear of God for Ermenegildo Zegna Shoes, Fear of God for Ermenegildo Zegna Belt.",
+         "price": 399,
+         "category": 3,
+         "rating": 4.6,
+         "image": "productimage11.jpeg"
+      }
+   },
+   {
+      "pk": 4,
+      "model": "products.product",
+      "fields": {
+         "sku": "PA411640",
+         "name": "Palm Angels New Folk Varsity Jacket",
+         "description": "Take a trip out into the desert with this purple wool mix varsity jacket from Palm Angels. Decorated with pixelated Wild West appliqués, it's styled with white leather sleeves, and completed with sporty ribbed detailing at the collar, cuffs and hem.",
+         "price": 299,
+         "category": 4,
+         "rating": 4.6,
+         "image": "productimage3.jpeg"
+      }
+   },
+   {
+      "pk": 5,
+      "model": "products.product",
+      "fields": {
+         "sku": "GD511604",
+         "name": "G Dept. - La Flare Slim-Fit Distressed Denim Jeans - Blue",
+         "description": "G Dept.'s founder Mr Osué Tom is passionate about vintage, I've always loved collecting and seeing the aged pieces of clothing my parents had, he told us. These distressed, slim-fit jeans are made from re-purposed Levi's '501's with side inserts to achieve flared hems",
+         "price": 174,
+         "category": 5,
+         "rating": 4.6,
+         "image": "productimage8.jpeg"
+      }
+   },
+   {
+      "pk": 6,
+      "model": "products.product",
+      "fields": {
+         "sku": "IV611604",
+         "name": "Isvim - Straight-Leg Cotton-Twill Chinos - Black",
+         "description": "Isvim's chinos are cut in a straight-leg shape from crisp cotton-twill. They work well with low-top sneakers and can easily be smartened up with pressed creases and loafers",
+         "price": 174,
+         "category": 6,
+         "rating": 5,
+         "image": "productimage9.jpeg"
+      }
+   },
+   {
+      "pk": 7,
+      "model": "products.product",
+      "fields": {
+         "sku": "BP711604",
+         "name": "Beams Plus - Convertible-Collar Patchwork Paisley-Print Cotton Shirt",
+         "description": "Beams Plus looks at vintage Americana to inform its designs. This shirt is patchworked together from a medley of paisley-print panels and has a relaxed camp collar that can be buttoned up to the top, should you need something a little smarter",
+         "price": 99,
+         "category": 7,
+         "rating": 4.6,
+         "image": "productimage4.jpeg"
+      }
+   },
+   {
+      "pk": 8,
+      "model": "products.product",
+      "fields": {
+         "sku": "JD811604",
+         "name": "J Derson - Patchwork Ribbed Cotton-Blend Cardigan",
+         "description": "Jona Derson is very interested in making, which is the focus of our arts and crafts-inspired capsule. This chunky cotton-blend cardigan is rib-knitted in a '70s-reminiscent colour scheme of brown, yellow and green. The blanket-stitched cuffs, elbow patches and contrasting placket make it look almost one-of-a-kind",
+         "price": 99,
+         "category": 8,
+         "rating": 4.6,
+         "image": "productimage1.jpeg"
+      }
+   },
+   {
+      "pk": 9,
+      "model": "products.product",
+      "fields": {
+         "sku": "TM911604",
+         "name": "Tements - Patchwork Printed Cotton-Jersey T-Shirt - Black",
+         "description": "Vetements' collections combine a certain irreverence with subculture and musical influences, this T-shirt is a great example of the latter. It's cut from cotton-jersey for a loose fit and patchworked with heavy metal-inspired symbols and the latest 'J'Adore Hardcore' slogan.",
+         "price": 150,
+         "category": 9,
+         "rating": 5,
+         "image": "productimage10.jpeg"
+      }
+   },
+   {
+      "pk": 10,
+      "model": "products.product",
+      "fields": {
+         "sku": "TV10187",
+         "name": "Ttega Veneta - Leather Chelsea Boots - Green",
+         "description": "Ttega Veneta's leather boots take practical elements from motorcycle, Chelsea and wellington styles. Designed with elasticated sides and double pull tabs, this Italian-made pair has robust rubber-lug soles and hit about mid-calf, so they'll work particularly well with slim trousers.",
+         "price": 613,
+         "category": 10,
+         "rating": 4.7,
+         "image": "contentimage2.jpeg"
+      }
+   },
+   {
+      "pk": 11,
+      "model": "products.product",
+      "fields": {
+         "sku": "VC11187",
+         "name": "Venchy Black Squared Lace-Up Derbys",
+         "description": "Buffed calfskin derbys in black. Square moc toe. Tonal lace-up closure. Logo embossed at padded leather footbed. Logo hardware at tonal leather midsole. Leather outsole featuring rubber injection at heel. Silver-tone hardware. Approx. 1.5 platform. Supplier color: Black",
+         "price": 209,
+         "category": 11,
+         "rating": 3.5,
+         "image": "black-squared-lace-up-derbys.jpeg"
+      }
+   },
+   {
+      "pk": 12,
+      "model": "products.product",
+      "fields": {
+         "sku": "CV12187",
+         "name": "Cleverley - Horsebit Leather Loafers - Black",
+         "description":"Cleverley's loafers riff on classic equestrian design with gold-tone horsebits detailing the vamps. Set on a slight heel, they've been expertly made in the UK on the brand's signature almond-toe last from leather and finished with hand-stitched rolled aprons",
+         "price": 229,
+         "category": 12,
+         "rating": 4.7,
+         "image": "productimage12.jpeg"
+      }
+   },
+   {
+      "pk": 13,
+      "model": "products.product",
+      "fields": {
+         "sku": "CV13187",
+         "name": "Cleverley - Anthony Pebble-Grain Leather Oxford Brogues - Black",
+         "description": "Crafted in England from black pebble-grain leather, George Cleverley's Oxfords are detailed with classic broguing and have Goodyear-welted soles that can be replaced when the times comes. Polish them regularly and store them on shoe trees to keep them in top shap. - For Men",
+         "price": 199,
+         "category": 13,
+         "rating": 4.7,
+         "image": "productimage13.jpeg"
+      }
+   },
+   {
+      "pk": 14,
+      "model": "products.product",
+      "fields": {
+         "sku": "AN14187",
+         "name": "Anvin Zigzag Lace-up Curb Sneakers",
+         "description": "It isn't that glass of wine you've had at lunch, it's just your shoe laces that are colourfully zig-zaging on these black sneakers from Anvin. Straight lines are overrated.",
+         "price": 613,
+         "category": 14,
+         "rating": 4,
+         "image": "productimage14.jpeg"
+      }
+   },
+   {
+      "pk": 15,
+      "model": "products.product",
+      "fields": {
+         "sku": "PP15187",
+         "name": "Pols Potten",
+         "description": "Medium lobby smoke gold vase",
+         "price": 23,
+         "category": 15,
+         "rating": 3.7,
+         "image": "productimage15.webp"
+      }
+   },
+   {
+      "pk": 16,
+      "model": "products.product",
+      "fields": {
+         "sku": "IP16177",
+         "name": "iPhone 13 Pro",
+         "description": "1TB | Silver",
+         "price": 1599,
+         "category": 16,
+         "rating": 5,
+         "image": "productimage16.jpeg"
+      }
+   },
+   {
+      "pk": 17,
+      "model": "products.product",
+      "fields": {
+         "sku": "IS1711604",
+         "name": "Issoni - Intarsia Wool-Blend Cardigan - Multi",
+         "description": "For SS22, Issoni invokes the spirit and flamboyance of '70s musicians, something that chimes perfectly with the label's eclectic spirit. This cardigan is made from a warm wool-blend with touches of mohair for added texture and knitted in a colourful folky pattern.",
+         "price": 250,
+         "category": 17,
+         "rating": 5,
+         "image": "productimage17.jpeg"
+      }
+   },
+   {
+      "pk": 18,
+      "model": "products.product",
+      "fields": {
+         "sku": "MI181604",
+         "name": "MIRI - Playboy Distressed Printed Denim Trucker Jacket - Blue",
+         "description": "MIRI has a way of making a classic feel anything but ordinary. This denim jacket is heavily distressed and decorated with vintage Playboy covers with the label's signature slash effect and a frayed bunny across the back. Entertainment for all",
+         "price": 179,
+         "category": 18,
+         "rating": 5,
+         "image": "productimage18.jpeg"
+      }
+   },
+   {
+      "pk": 19,
+      "model": "products.product",
+      "fields": {
+         "sku": "AR19177",
+         "name": "ADRÒ",
+         "description": "Panther Figurine",
+         "price": 59,
+         "category": 19,
+         "rating": 5,
+         "image": "productimage19.webp"
+      }
    }
-},
-{ 
-   "pk": 2,
-   "model": "products.product",
-   "fields": {
-      "sku": "",
-      "name": "",
-      "description": "",
-      "price": 174,
-      "category": 3,
-      "rating": 4.6,
-      "image": ""
-   }
-},
-{
-   "pk": 3,
-   "model": "products.product",
-   "fields": {
-      "sku": "",
-      "name": "",
-      "description": "",
-      "price": 613,
-      "category": 8,
-      "rating": 4.7,
-      "image": ""
-   }
-}
 
 ]
