@@ -3,7 +3,7 @@
       "model": "products.product",
       "fields": {
          "sku": "NKS101604",
-         "name": "Nike City Made Crew Sweat",
+         "name": "NIKE CITY MADE CREW SWEAT",
          "description": "Dress for cold, rainy days with this black sweat from Nike. Crafted from cotton French terry, it's styled black, then overlayed with nylon mesh for added durability and protection from the elements. You'll also find reflective logos printed on the chest and back for a signature finishing touch",
          "price": 80,
          "category": 1,
@@ -16,7 +16,7 @@
       "model": "products.product",
       "fields": {
          "sku": "BS211604",
-         "name": "Balencia X The Simpsons Oversized Popover Hoody",
+         "name": "BALENCIA x THE SIMPSONS OVERSIZED POPOVER HOODY",
          "description": "Balencia teams up with The Simpsons TM & © 20th Television to dress Springfield's most dysfunctional family in iconic pieces from the brand's archive on the chest of this hoody. Made in Italy from fleece-lined cotton, it's styled with dropped shoulders for an oversized look and comes equipped with ribbed trims for added warmth.100% CottonFleeceback JerseyOversizedFixed HoodPouch PocketRibbed TrimsMade in Italy",
          "price": 174,
          "category": 2,
@@ -29,7 +29,7 @@
       "model": "products.product",
       "fields": {
          "sku": "FG311604",
-         "name": "Fear of God for Ermenegildo Zegna - Wool Overcoat - Black",
+         "name": "FOG x ZEGNA - WOOL OVERCOAT - BLACK",
          "description": "The Fear of God for Ermenegildo Zegna collaboration is inspired by the same sentiment towards a unique craftsmanship, giving life to a new form of hybrid elegance and independent style, says Zegna's Mr Alessandro Sartori. Part of the smart capsule, this coat is tailored from weighty wool, has notch lapels, two spacious pockets and a single vent for ease of movement. Wear it with: Fear of God for Ermenegildo Zegna T-shirt, Fear of God for Ermenegildo Zegna Trousers, Fear of God for Ermenegildo Zegna Shoes, Fear of God for Ermenegildo Zegna Belt.",
          "price": 399,
          "category": 3,
@@ -42,7 +42,7 @@
       "model": "products.product",
       "fields": {
          "sku": "PA411640",
-         "name": "Palm Angels New Folk Varsity Jacket",
+         "name": "PALM ANGELS NEW FOLK VARSITY JACKET",
          "description": "Take a trip out into the desert with this purple wool mix varsity jacket from Palm Angels. Decorated with pixelated Wild West appliqués, it's styled with white leather sleeves, and completed with sporty ribbed detailing at the collar, cuffs and hem.",
          "price": 299,
          "category": 4,
@@ -55,7 +55,7 @@
       "model": "products.product",
       "fields": {
          "sku": "GD511604",
-         "name": "G Dept. - La Flare Slim-Fit Distressed Denim Jeans - Blue",
+         "name": "G DEPT. - LA FLARE SLIM-FIT DISTRESSED DENIM JEANS - BLUE",
          "description": "G Dept.'s founder Mr Osué Tom is passionate about vintage, I've always loved collecting and seeing the aged pieces of clothing my parents had, he told us. These distressed, slim-fit jeans are made from re-purposed Levi's '501's with side inserts to achieve flared hems",
          "price": 174,
          "category": 5,
@@ -67,8 +67,8 @@
       "pk": 6,
       "model": "products.product",
       "fields": {
-         "sku": "IV611604",
-         "name": "Isvim - Straight-Leg Cotton-Twill Chinos - Black",
+         "sku": "IV61604",
+         "name": "ISVIM - STRAIGHT-LEG COTTON-TWILL CHINOS - BLACK",
          "description": "Isvim's chinos are cut in a straight-leg shape from crisp cotton-twill. They work well with low-top sneakers and can easily be smartened up with pressed creases and loafers",
          "price": 174,
          "category": 6,
@@ -80,13 +80,13 @@
       "pk": 7,
       "model": "products.product",
       "fields": {
-         "sku": "BP711604",
-         "name": "Beams Plus - Convertible-Collar Patchwork Paisley-Print Cotton Shirt",
-         "description": "Beams Plus looks at vintage Americana to inform its designs. This shirt is patchworked together from a medley of paisley-print panels and has a relaxed camp collar that can be buttoned up to the top, should you need something a little smarter",
+         "sku": "BP71604",
+         "name": "B PLUS - EMBROIDERY OXFORD COTTON SHIRT",
+         "description": "B Plus looks at vintage Americana to inform its designs. This oxford shirt has a relaxed collar that can be buttoned up to the top, should you need something a little smarter",
          "price": 99,
          "category": 7,
          "rating": 4.6,
-         "image": "productimage4.jpeg"
+         "image": "productimage35.webp"
       }
    },
    {
@@ -107,7 +107,7 @@
       "model": "products.product",
       "fields": {
          "sku": "TM911604",
-         "name": "Tements - Patchwork Printed Cotton-Jersey T-Shirt - Black",
+         "name": "Vetements - Patchwork Printed Cotton-Jersey T-Shirt - Black",
          "description": "Vetements' collections combine a certain irreverence with subculture and musical influences, this T-shirt is a great example of the latter. It's cut from cotton-jersey for a loose fit and patchworked with heavy metal-inspired symbols and the latest 'J'Adore Hardcore' slogan.",
          "price": 150,
          "category": 9,
@@ -119,76 +119,76 @@
       "pk": 10,
       "model": "products.product",
       "fields": {
-         "sku": "TV10187",
-         "name": "Ttega Veneta - Leather Chelsea Boots - Green",
-         "description": "Ttega Veneta's leather boots take practical elements from motorcycle, Chelsea and wellington styles. Designed with elasticated sides and double pull tabs, this Italian-made pair has robust rubber-lug soles and hit about mid-calf, so they'll work particularly well with slim trousers.",
+         "sku": "TV1011604",
+         "name": "BOTTEGA VENETA BBOUNCE LEATHER ANKLE BOOTS",
+         "description": "Designed with elasticated sides and double pull tabs, this Italian-made pair has robust rubber-lug soles, so they'll work particularly well with slim trousers.",
          "price": 613,
          "category": 10,
          "rating": 4.7,
-         "image": "contentimage2.jpeg"
+         "image": "productimage4.webp"
       }
    },
    {
       "pk": 11,
       "model": "products.product",
       "fields": {
-         "sku": "VC11187",
-         "name": "Venchy Black Squared Lace-Up Derbys",
-         "description": "Buffed calfskin derbys in black. Square moc toe. Tonal lace-up closure. Logo embossed at padded leather footbed. Logo hardware at tonal leather midsole. Leather outsole featuring rubber injection at heel. Silver-tone hardware. Approx. 1.5 platform. Supplier color: Black",
+         "sku": "CH1111604",
+         "name": "CHURCH'S EDGERTON LEATHER DERBY LACE-UP SHOES",
+         "description": "Buffed calfskin derbys in burgundy. Tonal lace-up closure. Rubber outsole featuring Leather lining. Approx. 30mm Heel.",
          "price": 209,
          "category": 11,
          "rating": 3.5,
-         "image": "black-squared-lace-up-derbys.jpeg"
+         "image": "productimage21.webp"
       }
    },
    {
       "pk": 12,
       "model": "products.product",
       "fields": {
-         "sku": "CV12187",
-         "name": "Cleverley - Horsebit Leather Loafers - Black",
-         "description":"Cleverley's loafers riff on classic equestrian design with gold-tone horsebits detailing the vamps. Set on a slight heel, they've been expertly made in the UK on the brand's signature almond-toe last from leather and finished with hand-stitched rolled aprons",
+         "sku": "PR1211604",
+         "name": "PRADA - LOGO LEATHER LOAFERS - BLACK",
+         "description": "Prada's loafers riff on classic equestrian design with logo detailing the vamps. Set on a slight heel, they've been expertly made in the Italy on the brand's signature almond-toe last from leather and finished with hand-stitched rolled aprons",
          "price": 229,
          "category": 12,
          "rating": 4.7,
-         "image": "productimage12.jpeg"
+         "image": "productimage12.webp"
       }
    },
    {
       "pk": 13,
       "model": "products.product",
       "fields": {
-         "sku": "CV13187",
-         "name": "Cleverley - Anthony Pebble-Grain Leather Oxford Brogues - Black",
-         "description": "Crafted in England from black pebble-grain leather, George Cleverley's Oxfords are detailed with classic broguing and have Goodyear-welted soles that can be replaced when the times comes. Polish them regularly and store them on shoe trees to keep them in top shap. - For Men",
+         "sku": "CV1221604",
+         "name": "GUCCI",
+         "description": "Gucci x The North Face Leather Hiking Boots",
          "price": 199,
          "category": 13,
          "rating": 4.7,
-         "image": "productimage13.jpeg"
+         "image": "productimage13.webp"
       }
    },
    {
       "pk": 14,
       "model": "products.product",
       "fields": {
-         "sku": "AN14187",
-         "name": "Anvin Zigzag Lace-up Curb Sneakers",
+         "sku": "LN1411640",
+         "name": "LANVIN ZIGZAG LACE-UP CURB SNEAKERS",
          "description": "It isn't that glass of wine you've had at lunch, it's just your shoe laces that are colourfully zig-zaging on these black sneakers from Anvin. Straight lines are overrated.",
          "price": 613,
          "category": 14,
          "rating": 4,
-         "image": "productimage14.jpeg"
+         "image": "productimage14.webp"
       }
    },
    {
       "pk": 15,
       "model": "products.product",
       "fields": {
-         "sku": "PP15187",
-         "name": "Pols Potten",
+         "sku": "PP163177",
+         "name": "POLS POTTEN",
          "description": "Medium lobby smoke gold vase",
-         "price": 23,
-         "category": 15,
+         "price": 129,
+         "category": 16,
          "rating": 3.7,
          "image": "productimage15.webp"
       }
@@ -197,24 +197,37 @@
       "pk": 16,
       "model": "products.product",
       "fields": {
-         "sku": "IP16177",
-         "name": "iPhone 13 Pro",
+         "sku": "IP161177",
+         "name": "iPHONE 13 PRO",
          "description": "1TB | Silver",
          "price": 1599,
          "category": 16,
          "rating": 5,
-         "image": "productimage16.jpeg"
+         "image": "productimage16.png"
+      }
+   },
+   {
+      "pk": 16,
+      "model": "products.product",
+      "fields": {
+         "sku": "AD152177",
+         "name": "ADRÒ",
+         "description": "The Essence of Life Figurine.",
+         "price": 49,
+         "category": 15,
+         "rating": 4,
+         "image": "productimage32.webp"
       }
    },
    {
       "pk": 17,
       "model": "products.product",
       "fields": {
-         "sku": "IS1711604",
-         "name": "Issoni - Intarsia Wool-Blend Cardigan - Multi",
-         "description": "For SS22, Issoni invokes the spirit and flamboyance of '70s musicians, something that chimes perfectly with the label's eclectic spirit. This cardigan is made from a warm wool-blend with touches of mohair for added texture and knitted in a colourful folky pattern.",
+         "sku": "RL821604",
+         "name": "RALPH LAUREN PURPLE LABEL - SHAWN-COLLAR INTARSIA CASHMERE SWEATER - BROWN",
+         "description": "Ralph Lauren Purple Label's sweater is hand-spun from camel and cream cashmere - the intarsia pattern takes cues from Nordic styles. It has a thick handle and a warm shawl collar that's ribbed to create a little extra structure. Layer a T-shirt underneath. 100% Cashmere",
          "price": 250,
-         "category": 17,
+         "category": 8,
          "rating": 5,
          "image": "productimage17.jpeg"
       }
@@ -223,11 +236,11 @@
       "pk": 18,
       "model": "products.product",
       "fields": {
-         "sku": "MI181604",
-         "name": "MIRI - Playboy Distressed Printed Denim Trucker Jacket - Blue",
-         "description": "MIRI has a way of making a classic feel anything but ordinary. This denim jacket is heavily distressed and decorated with vintage Playboy covers with the label's signature slash effect and a frayed bunny across the back. Entertainment for all",
+         "sku": "AM441604",
+         "name": "AMIRI PLAYBOY DISTRESSD PRINTED DENIM TRUCKER JACKET - BLUE",
+         "description": "AMIRI has a way of making a classic feel anything but ordinary. This denim jacket is heavily distressed and decorated with vintage Playboy covers with the label's signature slash effect and a frayed bunny across the back. Entertainment for all",
          "price": 179,
-         "category": 18,
+         "category": 4,
          "rating": 5,
          "image": "productimage18.jpeg"
       }
@@ -243,6 +256,149 @@
          "category": 19,
          "rating": 5,
          "image": "productimage19.webp"
+      }
+   },
+   {
+      "pk": 20,
+      "model": "products.product",
+      "fields": {
+         "sku": "AM1431604",
+         "name": "AMIRI SNEAKER",
+         "description": "Bone Runner Low-Top Suede Sneakers.",
+         "price": 215,
+         "category": 14,
+         "rating": 5,
+         "image": "productimage24.webp"
+      }
+   },
+   {
+      "pk": 21,
+      "model": "products.product",
+      "fields": {
+         "sku": "SL1421604",
+         "name": "SAINT LAURENT",
+         "description": "Smith Grained Leather Sneakers",
+         "price": 419,
+         "category": 14,
+         "rating": 5,
+         "image": "productimage20.webp"
+      }
+   },
+   {
+      "pk": 22,
+      "model": "products.product",
+      "fields": {
+         "sku": "AR153177",
+         "name": "ADRÒ",
+         "description": "The Guest by Supakitch",
+         "price": 409,
+         "category": 15,
+         "rating": 5,
+         "image": "productimage23.webp"
+      }
+   },
+   {
+      "pk": 23,
+      "model": "products.product",
+      "fields": {
+         "sku": "DS163177",
+         "name": "DIESEL LIVING WITH SELETTI GLOWING STARMAN",
+         "description": "Table Lamps",
+         "price": 90,
+         "category": 16,
+         "rating": 3.7,
+         "image": "productimage26.webp"
+      }
+   },
+   {
+      "pk": 24,
+      "model": "products.product",
+      "fields": {
+         "sku": "SL164177",
+         "name": "SELETTI",
+         "description": "Wall Lamps",
+         "price": 150,
+         "category": 16,
+         "rating": 3.9,
+         "image": "productimage27.webp"
+      }
+   },
+   {
+      "pk": 25,
+      "model": "products.product",
+      "fields": {
+         "sku": "BV1441604",
+         "name": "BOTTEGA VENETA",
+         "description": "The Quilt Leather Roller Skates Sneaker, Supplier color: Green",
+         "price": 650,
+         "category": 14,
+         "rating": 3.7,
+         "image": "productimage31.webp"
+      }
+   },
+   {
+      "pk": 26,
+      "model": "products.product",
+      "fields": {
+         "sku": "MP421604",
+         "name": "MONCLER GENIUS x PALM ANGELS PANAMINT DOWN JACKET",
+         "description": "Designer Francesco Ragazzi was inspired by the idea of the vintage store in devising the 8 MONCLER PALM ANGELS FW21 collection: a place where many disparate elements mix and magically come together. Eschewing seasonal clichés, Ragazzi approaches a lineup of archetypes: puffer jackets and vests, the Hawaiian shirt, sweaters, tracksuits, sweatshirts, and Moon Boots. For this collection, Ragazzi has refashioned the signature Moncler logo, replacing the cockerel emblem with an elegant palm tree which sprouts a pair of angel wings, mirroring the collaboration name. Ragazzi has also launched his first collaboration for Moncler Palm Angels with the iconic Italian brand Moon Boot, transforming the traditional puffer-style boot in a playful and unexpected animal print. Championing Moncler’s commitment to a more sustainable future, the 8 MONCLER PALM ANGELS collection features fabrics crafted from low impact materials such as ECONYL®, organic cotton, and recycled metal components.",
+         "price": 499,
+         "category": 4,
+         "rating": 3.9,
+         "image": "productimage5.webp"
+      }
+   },
+   {
+      "pk": 27,
+      "model": "products.product",
+      "fields": {
+         "sku": "MP431604",
+         "name": "MONCLER GENIUS x PALM ANGELS IDYLLWILD DOWN JACKET",
+         "description": "Designer Francesco Ragazzi was inspired by the idea of the vintage store in devising the 8 MONCLER PALM ANGELS FW21 collection: a place where many disparate elements mix and magically come together. Eschewing seasonal clichés, Ragazzi approaches a lineup of archetypes: puffer jackets and vests, the Hawaiian shirt, sweaters, tracksuits, sweatshirts, and Moon Boots. For this collection, Ragazzi has refashioned the signature Moncler logo, replacing the cockerel emblem with an elegant palm tree which sprouts a pair of angel wings, mirroring the collaboration name. Ragazzi has also launched his first collaboration for Moncler Palm Angels with the iconic Italian brand Moon Boot, transforming the traditional puffer-style boot in a playful and unexpected animal print. Championing Moncler’s commitment to a more sustainable future, the 8 MONCLER PALM ANGELS collection features fabrics crafted from low impact materials such as ECONYL®, organic cotton, and recycled metal components",
+         "price": 499,
+         "category": 4,
+         "rating": 5,
+         "image": "productimage28.webp"
+      }
+   },
+   {
+      "pk": 28,
+      "model": "products.product",
+      "fields": {
+         "sku": "BO163177",
+         "name": "BANG & OLUFSEN",
+         "description": "Beoplay H95 Headphones",
+         "price": 299,
+         "category": 16,
+         "rating": 5,
+         "image": "productimage22.jpeg"
+      }
+   },
+   {
+      "pk": 29,
+      "model": "products.product",
+      "fields": {
+         "sku": "BC521604",
+         "name": "BRUNELLO CUCINELLI - SELVEDGE JEANS - BLUES",
+         "description": "Brunello Cucinelli chose gold-standard selvedge denim to create these jeans, which naturally fades over time and has 'self-edges' that are less likely to fray. They're cut in the brand's comfortable straight-leg 'Leisure' fit and have a classic indigo wash.",
+         "price": 300,
+         "category": 5,
+         "rating": 3.7,
+         "image": "productimage29.jpeg"
+      }
+   },
+   {
+      "pk": 30,
+      "model": "products.product",
+      "fields": {
+         "sku": "GC821604",
+         "name": "GUCCI - LOGO APPLIQUED WEBBING-TRIMMED TECH-JERSEY HOODIE - BLUE",
+         "description": "Mr Alessandro Michele is a vintage sportswear enthusiast, so he regularly includes tracksuits in Gucci's collections. This high-shine tech-jersey hoodie has an appliquéd logo on the chest and the maison's signature striped webbing down each sleeve. Wear it with the matching shorts",
+         "price": 250,
+         "category": 8,
+         "rating": 4.3,
+         "image": "productimage30.jpeg"
       }
    }
 
