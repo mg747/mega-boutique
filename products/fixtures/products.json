@@ -93,9 +93,9 @@
       "pk": 8,
       "model": "products.product",
       "fields": {
-         "sku": "JD811604",
-         "name": "J Derson - Patchwork Ribbed Cotton-Blend Cardigan",
-         "description": "Jona Derson is very interested in making, which is the focus of our arts and crafts-inspired capsule. This chunky cotton-blend cardigan is rib-knitted in a '70s-reminiscent colour scheme of brown, yellow and green. The blanket-stitched cuffs, elbow patches and contrasting placket make it look almost one-of-a-kind",
+         "sku": "JA811604",
+         "name": "J ANDERSON - PATCHWORK RIBBED COTTON-BLENT CARDIGAN",
+         "description": "Jonathan Anderson is very interested in making, which is the focus of our arts and crafts-inspired capsule. This chunky cotton-blend cardigan is rib-knitted in a '70s-reminiscent colour scheme of brown, yellow and green. The blanket-stitched cuffs, elbow patches and contrasting placket make it look almost one-of-a-kind",
          "price": 99,
          "category": 8,
          "rating": 4.6,
@@ -106,8 +106,8 @@
       "pk": 9,
       "model": "products.product",
       "fields": {
-         "sku": "TM911604",
-         "name": "Vetements - Patchwork Printed Cotton-Jersey T-Shirt - Black",
+         "sku": "VT911604",
+         "name": "VETEMENTS - PATCHWORK PRINTED COTTON-JERSEY T-SHIRT - BLACK",
          "description": "Vetements' collections combine a certain irreverence with subculture and musical influences, this T-shirt is a great example of the latter. It's cut from cotton-jersey for a loose fit and patchworked with heavy metal-inspired symbols and the latest 'J'Adore Hardcore' slogan.",
          "price": 150,
          "category": 9,
