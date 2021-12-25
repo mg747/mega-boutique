@@ -15,6 +15,7 @@ cryptography==3.4.8
 defusedxml==0.7.1
 Django==3.2
 django-allauth==0.41.0
+django-crispy-forms==1.13.0
 idna==3.3
 oauthlib==3.1.1
 Pillow==8.4.0
