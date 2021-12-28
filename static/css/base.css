@@ -229,40 +229,6 @@ a.category-badge > span.badge:hover {
     overflow-y: auto;
 }
 
-/* Media Queries */
-
-/* Slightly larger container on xl screens */
-@media (min-width: 1200px) {
-  .container {
-    max-width: 80%;
-  }
-}
-
-/* fixed top navbar only on medium and up */
-@media (min-width: 992px) {
-    .fixed-top-desktop-only {
-        position: fixed;
-        top: 0;
-        right: 0;
-        left: 0;
-        z-index: 1030;
-    }
-
-    .header-container {
-        padding-top: 164px;
-    }
-}
-
-/* pad the top a bit when navbar is collapsed on mobile */
-@media (max-width: 991px) {
-    .header-container {
-        padding-top: 116px;
-    }
-
-    body {
-        height: calc(100vh - 116px);
-    }
-}
 /* Allauth form formatting */
 
 .allauth-form-inner-content p {
@@ -345,12 +311,136 @@ a.category-badge > span.badge:hover {
     border-radius: 0;
 }
 
+/* Media Queries */
+
+/* Slightly larger container on xl screens */
+@media (min-width: 1200px) {
+    .container {
+      max-width: 80%;
+    }
+  }
+  
+/* fixed top navbar only on medium and up */
+@media (min-width: 992px) {
+    .fixed-top-desktop-only {
+        position: fixed;
+        top: 0;
+        right: 0;
+        left: 0;
+        z-index: 1030;
+    }
+
+    .header-container {
+        padding-top: 164px;
+    }
+}
+
+/* pad the top a bit when navbar is collapsed on mobile */
+@media (max-width: 991px) {
+    .header-container {
+        padding-top: 116px;
+    }
+
+    body {
+        height: calc(100vh - 116px);
+    }
+
+    .display-4.logo-font.text-black {
+        font-size: 2rem;
+    }
+
+    .nav-link {
+        padding: 0.15rem;
+    }
+
+    .nav-link i.fa-lg {
+        font-size: 1rem;
+    }
+
+    .navbar-toggler {
+        padding: .6rem .6rem;
+        font-size: 1rem;
+    }
+
+    #delivery-banner h4 {
+        font-size: .9rem;
+    }
+
+    .btn.btn-outline-black.rounded-0,
+    .btn.btn-black.rounded-0 {
+        padding: .375rem .375rem;
+    }
+
+    .btn.btn-outline-black.rounded-0.btn-lg,
+    .btn.btn-black.rounded-0.btn-lg {
+        padding: .375rem .375rem;
+        font-size: .75rem;
+    }
+
+    .increment-qty, .decrement-qty {
+        padding: .25rem .5rem !important;
+    }
+}
+
 /* END OF PAGE Footer */
 .footer {
-    background: color #000;
-    text-align: center;
+    text-align: center;  
     padding: 1em;
     margin-top: 20px;
     margin: 0 auto;
     position: relative;
-  }
+}
+
+  /* Social media icon styling */
+/* Copied from https://www.w3schools.com */
+div .social-media {
+    padding: 0;
+    margin: 1em;
+    transition: all 0.35s ease-in-out;
+    -moz-transition: all 0.35s ease-in-out;
+    -webkit-transition: all 0.35s ease-in-out;
+    -o-transition: all 0.35s ease-in-out
+}
+
+.fa-facebook {
+    color: #3386FF;
+    padding: 5px;
+    border-radius: 5px;
+    width: 36px;
+    height: 36px;
+    font-size: 30px;
+}
+
+.fa-youtube {
+    color: #bb0000;
+    padding: 5px;
+    border-radius: 5px;
+    width: 36px;
+    height: 36px;
+    font-size: 30px;
+}
+
+.fa-twitter {
+    color: #f1f1f1;
+    padding: 5px;
+    border-radius: 5px;
+    width: 36px;
+    height: 36px;
+    font-size: 30px;
+}
+
+.fa-instagram {
+    color: #FC0069;
+    padding: 5px;
+    border-radius: 5px;
+    width: 36px;
+    height: 36px;
+    font-size: 30px;
+}
+
+/* Add a hover effect if you want */
+.fa:hover {
+    opacity: 0.7;
+    background: silver;
+    text-decoration: none;
+}
