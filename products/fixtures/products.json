@@ -51,6 +51,19 @@
       }
    },
    {
+      "pk": 4,
+      "model": "products.product",
+      "fields": {
+         "sku": "MC411640",
+         "name": "MONCLER JACKET",
+         "description": "Take a trip out into the desert with this blue down jacket.",
+         "price": 299,
+         "category": 4,
+         "rating": 4.6,
+         "image": "productimage6.jpeg"
+      }
+   },
+   {
       "pk": 5,
       "model": "products.product",
       "fields": {

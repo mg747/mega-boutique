@@ -6,9 +6,9 @@
 }
 /* Body styling */
 * {
-  margin:0;
-  padding:0;
-  border:0;
+    margin:0;
+    padding:0;
+    border:0;
 }
 
 html {
@@ -16,7 +16,7 @@ html {
 }
 
 body {
-    background: url('/media/homepage_background.jpg') no-repeat center center fixed;
+    background: url('') no-repeat center center fixed;
     background-size: cover;
     height: calc(100vh - 164px);
     color: #555;
@@ -26,7 +26,67 @@ body {
 .responsive {
     max-width: 100%;
     height: auto;
+}
+
+content {
+    background: 
+      linear-gradient(
+        rgba(0, 0, 0, 0.5),
+        rgba(0, 0, 0, 0.5)
+      ),
+      url(/media/homepage_background.jpg) no-repeat center center fixed;
+    height: 100vh;
+    width: 100vh;
+    position: relative;
+    background-size: cover;
   }
+  
+  .title {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    text-align: center;
+  }
+  h1 {
+    text-transform: uppercase;
+    margin: 0;
+    font-size: 3rem;
+    white-space: nowrap;
+  }
+  h2 {
+    font-size: 2rem;
+  }
+  p {
+    margin: 0;
+    font-size: 1.3rem;
+  }
+  
+  main {
+    max-width: 500px;
+    margin: 20px auto;
+  }
+  
+  main {
+    max-width: 500px;
+    margin: 20px auto;
+  }
+
+  .card {
+      overflow: hidden;
+  }
+  .row.text-over-image {
+      width: 200;
+  }
+  .text {
+      transform:translateX(-100%)
+  }
+  img {
+      height: 100%;
+      width: 100%;
+  }
+
   /* Media querie */
   /* For mobile phones: */
   [class*="col-"] {
@@ -382,13 +442,14 @@ a.category-badge > span.badge:hover {
     }
 }
 
-/* END OF PAGE Footer */
-.footer {
-    text-align: center;  
-    padding: 1em;
-    margin-top: 20px;
-    margin: 0 auto;
-    position: relative;
+ /* END OF PAGE Footer */
+ .footer {
+    background: color #f1f1f1;
+      text-align: center;  
+      padding: 1em;
+      margin-top: 20px;
+      margin: 0 auto;
+      position: relative;
 }
 
   /* Social media icon styling */

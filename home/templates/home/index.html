@@ -2,76 +2,135 @@
 {% load static %}
 
 {% block page_header %}
-    <div class="container header-container">
-        <div class="row">
-            <div class="col"></div>
-        </div>
+<div class="container header-container">
+    <div class="row">
+        <div class="col"></div>
     </div>
-    <header>
-        <div class="title">
-          <h1 style="color:green">FW21</h1>
-          <h3>Collections</h3>
-        </div>
-      </header>
-      
-      <main>
-        <h2>Extra-cozy Staples</h2>
-        <p>Warm and comfy essentials for any mood</p>
-      </main>
+</div>
 {% endblock %}
 
 {% block content %}
-<div class="container-fluid">
+<div class="container content-container">
+    <br>
     <br>
     <div class="row row-cols-1 row-cols-md-8">
-        <div class="col mb-2">
-            <div class="card">
-                <img src='/media/12.webp' class="card-img-top" alt="SS22">
-                <div class="card-body">
-                    <h2 style="color:red">Essentials</h2>
-                    <a href="{% url 'home' %}" class="btn btn-black">Shop Now</a>
-                </div>
+        <content>
+            <div class="title">
+                <h1>FALL WINTER</h1>
+                <h1 style="color:red">SALES</h1>
+                <h2>Up to 60% off</h2>
+                <br>
+                <a href="{% url 'products' %}" class="shop-now-button btn rounded-0 text-uppercase py-3">SHOP
+                    NOW</a>
             </div>
-        </div>
-        <div class="col mb-2">
-            <div class="card">
-                <img src='/media/dior-fall-winter-2022-collection-001.jpeg' class="card-img-top" alt="New Arrivals">
-                <div class="card-body">
-                    <h3 class="card-text">SS22</h3>
-                    <a href="{% url 'home' %}" class="btn btn-black">New Arrivals</a>
-                </div>
-            </div>
-        </div>
+        </content>
     </div>
 </div>
-
-<div class="container h-100">
-    <div class="row h-100">
-        <div class="col-7 col-md-6 my-auto">
-            <h1 class="display-4 logo-font color:red">
-                NEW ARRIVALS
-            </h1>
-            <div class="my-5">
-                <h4>
-                    <a href="{% url 'products' %}" class="shop-now-button btn btn-lg rounded-0 text-uppercase py-3">SHOP
-                        NOW</a>
-                </h4>
-            </div>
-        </div>
-    </div>
-</div>
-</div>
-</div>
-<div class="col mb-4">
+<br>
+<div class="container-fluid">
     <div class="card">
-        <img src='/media/19-10-2021_TH_1A001-61-539WF-742_1_1.jpeg' class="card-img-top" alt="Coat">
-        <div class="card-body">
-            <h3 class="card-text">Modern Classic</h3>
-            <a href="#" class="btn btn-black">SHOP NOW</a>
+        <div class="row text-over-image">
+            <div class="col-md-6 image">
+                <img src='/media/12.webp' class="card-img-top" alt="New Arrivals">
+                <div class="title">
+                    <h2 style="color:white">SS22</h2>
+                    <h2>Extra-cozy Staples</h2>
+                    <br>
+                    <a href="{% url 'products' %}" class="shop-now-button btn rounded-0 text-uppercase py-3">SHOP
+                        NOW</a>
+                </div>
+            </div>
+            <br>
+            <div class="col-md-6 image">
+                <img src='/media/lifestyleimage1.jpeg' class="card-img-top" alt="New Arrivals">
+                <div class="title">
+                    <h2 style="color:white">Just In</h2>
+                    <h2 style="color:white">Homeware</h2>
+                    <br>
+                    <a href="{% url 'products' %}" class="shop-now-button btn rounded-0 text-uppercase py-3">SHOP
+                        NOW</a>
+                </div>
+            </div>
         </div>
-
     </div>
 </div>
 </div>
 </div>
+</div>
+<br>
+<br>
+<div class="container-fluid">
+    <div class="row">
+        <div class="col-12">
+            <img src='/media/5-1.jpeg' class="card-img-top" alt="New Arrivals">
+            <div class="title">
+                <h1 style="color:white">SS22</h1>
+                <h2>Warm and comfy essentials for any mood</h2>
+                <br>
+                <a href="{% url 'products' %}" class="shop-now-button btn rounded-0 text-uppercase py-3">SHOP
+                    NOW</a>
+            </div>
+        </div>
+    </div>
+    <br>
+    <div class="container-fluid">
+        <div class="card">
+            <div class="row text-over-image">
+                <div class="col-md-4 image">
+                    <img src='/media/amiri-black-and-red-skel-top-leather-sneakers_16762936_37054042_1920.jpeg' class="card-img-top" alt="New Arrivals">
+                    <div class="title">
+                        <h2 style="color:white">SNEAKERS</h2>
+                        <br>
+                        <a href="{% url 'products' %}"
+                            class="shop-now-button btn rounded-0 text-uppercase py-3">SHOP
+                            NOW</a>
+                    </div>
+                </div>
+                <br>
+                <div class="col-md-4 image">
+                    <img src='/media/contentimage11.webp' class="card-img-top" alt="New Arrivals">
+                    <div class="title">
+                        <h2 style="color:white">ACCESSORIES</h2>
+                        <br>
+                        <a href="{% url 'products' %}"
+                            class="shop-now-button btn rounded-0 text-uppercase py-3">SHOP
+                            NOW</a>
+                    </div>
+                </div>
+                <br>
+                <div class="col-md-4 image">
+                    <img src='/media/productimage5.webp' class="card-img-top" alt="New Arrivals">
+                    <div class="title">
+                        <h2 style="color:white">DOWN JACKETS</h2>
+                        <br>
+                        <a href="{% url 'products' %}"
+                            class="shop-now-button btn rounded-0 text-uppercase py-3">SHOP
+                            NOW</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+</div>
+</div>
+<br>
+<br>
+<div class="container-fluid">
+    <div class="row">
+        <div class="col-12">
+            <img src='/media/dior-fall-winter-2022-collection-001.jpeg' class="card-img-top" alt="New Arrivals">
+            <div class="title">
+                <h1 style="color:white">RUNWAY</h1>
+                <br>
+                <a href="{% url 'products' %}" class="shop-now-button btn rounded-0 text-uppercase py-3">SHOP
+                    STYLE</a>
+            </div>
+        </div>
+    </div>
+    <br>
+</div>
+</div>
+</div>
+
 {% endblock %}
