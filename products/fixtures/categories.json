@@ -19,8 +19,8 @@
        "pk": 3,
        "model": "products.category",
        "fields": {
-          "name": "coat",
-          "friendly_name": "Coat"
+          "name": "coats",
+          "friendly_name": "Coats"
        }
     },
     {
@@ -150,5 +150,13 @@
           "name": "sale",
           "friendly_name": "Sale"
        }
-    }
+    },
+    {
+      "pk": 20,
+      "model": "products.category",
+      "fields": {
+         "name": "accessories",
+         "friendly_name": "Accessories"
+      }
+   }
  ]

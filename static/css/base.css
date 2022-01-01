@@ -27,7 +27,7 @@ body {
     max-width: 100%;
     height: auto;
 }
-
+/* Code copied and modified from https://css-tricks.com/design-considerations-text-images/ */
 content {
     background: 
       linear-gradient(
@@ -238,7 +238,7 @@ a.category-badge > span.badge:hover {
     height: 2px;
 }
 
-/* from CSS-tricks.com: https://css-tricks.com/snippets/css/css-triangle/ */
+/* Code copie from CSS-tricks.com: https://css-tricks.com/snippets/css/css-triangle/ */
 .arrow-up {
     width: 0; 
     height: 0; 
@@ -442,9 +442,9 @@ a.category-badge > span.badge:hover {
     }
 }
 
- /* END OF PAGE Footer */
- .footer {
-    background: color #f1f1f1;
+/* END OF PAGE Footer */
+.footer {
+    background: color #000000;
       text-align: center;  
       padding: 1em;
       margin-top: 20px;
@@ -465,15 +465,6 @@ div .social-media {
 
 .fa-facebook {
     color: #3386FF;
-    padding: 5px;
-    border-radius: 5px;
-    width: 36px;
-    height: 36px;
-    font-size: 30px;
-}
-
-.fa-youtube {
-    color: #bb0000;
     padding: 5px;
     border-radius: 5px;
     width: 36px;

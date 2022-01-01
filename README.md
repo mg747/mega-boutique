@@ -2,9 +2,9 @@
 
 [View the live project here.](https://mg747.github.io/mega-boutique/)
 
-![Site Screenshot]()
+![Site Screenshot](ms4sitescreenshot.jpeg)
 #### Site Name: MEGA BOUTIQUE
-#### Goal : Lifestyle, Luxe
+#### Goal : Accessories, Menswears, Footwears, Gadgets, Home and Lifestyle
 
 ## Contents
 * [User Experience Design (UX)](#User-Experience-Design)
@@ -54,19 +54,19 @@
 
     -   #### Returning Visitor Goals
 
-        1. As a Returning Visitor, I want to see information about the most new/recent workout plan and healthy food recipes.
+        1. As a Returning Visitor, I want to see new products and deals.
         2. As a Returning Visitor, I want to find the best way to get in contact with the site owner with any questions I may have.
-        3. As a Frequent User, I want to be able to login to the site to create or add my own recipe. 
+        3. As a Frequent User, I want to be able to login to the site view my profile and add items to wishlist. 
 
     -   #### Frequent User Goals
         1. As a Frequent User, I want to browse the site to see if there are any changes, news and/or updates.
-        2. As a Frequent User, I want to see information about the most new/recent workout plan and healthy diet recipes.
+        2. As a Frequent User, I want to see information about the most new arrivals and sales.
 
 -   ### Design
     -   #### Colour Scheme
         -   The two main colours used are Code Institute black, and white.
     -   #### Typography
-        -   The Roboto font is the main font used throughout the whole website with Helvetica and Sans Serif as the fallback font in case for any reason the font isn't being imported into the site correctly. Roboto is a clean font used frequently in programming, so it is both attractive and appropriate.
+        -   The Lato font is the main font used throughout the whole website. Lato is a clean font used frequently in programming, so it is both attractive and appropriate.
     -   #### Imagery
         -   Imagery is important. The Images used across the site and in cards were designed to be striking and to catch the user's attention. It also has a modern, energetic aesthetic.
 
@@ -98,8 +98,8 @@
 
 ### Frameworks, Libraries & Programs Used
 
-1. [Bootstrap 4.6:](https://getbootstrap.com/)
-    - Bootstrap 4.6 was used to assist with the responsiveness and styling of the website.
+1. [Bootstrap 4.6.x:](https://getbootstrap.com/)
+    - Bootstrap 4.6.x was used to assist with the responsiveness and styling of the website.
 2. [Hover.css:](https://ianlunn.github.io/Hover/)
     - Hover.css was used on the Social Media icons in the footer to add the float transition while being hovered over.
 3. [Font Awesome 5.13.1:](https://fontawesome.com/)
@@ -120,6 +120,8 @@
     - Django was used to create the [framework].
 11. [Postgresql:](https://postgresql.org/)
     - Mongodb was used to create database and to connect server to our site.
+12. [Stripe:](https://stripe.com/)
+    - Stripe was used to accept and authorise payment for any item purchased on the site.    
 
 ## Testing
 
@@ -127,38 +129,39 @@ The W3C Markup Validator and W3C CSS Validator Services were used to validate ev
 
 -   [W3C Markup Validator](https://jigsaw.w3.org/css-validator/#validate_by_input) - [Results](https://github.com/)
 -   [W3C CSS Validator](https://jigsaw.w3.org/css-validator/#validate_by_input) - [Results](https://github.com/)
+-   [Lighthouse](https://https://developers.google.com/web/tools/lighthouse) - [Results](https://github.com/)
 
 ### Testing User Stories from User Experience (UX) Section
 
 -   #### First Time Visitor Goals
 
-    1. As a Shopper, I want to be able to view a list of products, so that I can select some to purchase.
+    1. As a Shopper, I want to be able to view a list of products, so that I can select an item to purchase.
 
-      1. Upon entering the site. If a user click the shop now button on the home page, they will see a list of products.
+      1. Upon entering the site. The homepage navigation bar have links to list of products and categories, user have the option to view all products or search for a specific product. ![](ms4screenshot1.jpeg)
 
     2. As a Site User, I want to be able to register for an account and have a personalised user profile.
 
-      1. The Site User can register to view their personal order history and order confirmations, and save their payment information. ![]()
+      1. The Site User can register to view their personal order history and order confirmations, and save their payment information by clicking on My Area icon on the homepage top-right as shown on the screenshot above.
 
     3. As a First Time Visitor, I want to locate the site social media links to see past and present post about the site service.
        
-      1. The social media links is on the footer on every page of the site. ![]()
+      1. The social media links is on the footer on every page of the site. ![](ms4screenshot2.jpeg)
 
 -   #### Returning User Goals
 
     1. As a Returning User, I want to see information about new products.
 
-      1. This information is on the home page. ![]() 
+      1. Returning user can find contents about new products on the home page or click on New Arrivals link on the navbar. ![](ms4screenshot3) 
     
     2. As a Returning Visitor, I want to find the best way to get in contact with customer service with any questions I may have.
 
-      1. Returning Visitor can contact customer service through contact link on the footer of the site.
+      1. Returning Visitor can contact customer service through contact us link on the footer of the site.
 
 -   #### Frequent User Goals
 
     1. As a Frequent User, I want to see updates about any change, sales, or new products on the site.
 
-      1. Frequent User can easily find this information on the home page. ![]()
+      1. Frequent User can easily find this updates and contents on the home page. ![]()
 
     2. As a Frequent User, I want to check to see if there are any new blog posts.
 
@@ -167,13 +170,13 @@ The W3C Markup Validator and W3C CSS Validator Services were used to validate ev
 ### Further Testing
 
 -   The Website was tested on Google Chrome, Mozilla Firefox, Microsoft Edge and Safari browsers.
--   The website was viewed on a variety of devices such as Desktop, Laptop, iPhone SE, iPhone 12, Samsung Galaxy A5, and iPadPro.
+-   The website was viewed on a variety of devices such as Desktop, Laptop, iPhone SE, iPhone 11, One+ 9 Pro, and iPadPro.
 -   A large amount of testing was done to ensure that all pages were linking correctly
 -   Friends and family members were asked to review the site and documentation to point out any bugs and/or user experience issues.
 
 ### Known Bugs
 
--   No known bug at the time I tested the site/app. I will continue to debug and check to ensure that the site is working efficiently. Although w3c markup validator shows syntax error message because of Jinja URL links used in code.  
+-   No known bug at the time I tested the site/app. I will continue to debug and check to ensure that the site is working efficiently. Although w3c markup validator shows syntax error message because of jinja URL links used in code.  
 
 ## Deployment
 
@@ -193,13 +196,13 @@ The project was deployed to GitHub Pages using the following steps...
 
 By forking the GitHub Repository we make a copy of the original repository on our GitHub account to view and/or make changes without affecting the original repository by using the following steps...
 
-1. Log in to GitHub and locate the [GitHub Repository](https://mg747.github.io/gfit-and-wellness/)
+1. Log in to GitHub and locate the [GitHub Repository](https://mg747.github.io/mega-boutique/)
 2. At the top of the Repository (not top of page) just above the "Settings" Button on the menu, locate the "Fork" Button.
 3. You should now have a copy of the original repository in your GitHub account.
 
 ### Making a Local Clone
 
-1. Log in to GitHub and locate the [GitHub Repository](https://mg747.github.io/gfit-and-wellness/)
+1. Log in to GitHub and locate the [GitHub Repository](https://mg747.github.io/mega-boutique/)
 2. Under the repository name, click "Clone or download".
 3. To clone the repository using HTTPS, under "Clone with HTTPS", copy the link.
 4. Open Git Bash
@@ -229,7 +232,7 @@ Click [Here](https://help.github.com/en/github/creating-cloning-and-archiving-re
 
 -   Codes were copied and modified from the Full Stack Frameworks with Django, Boutique Ado Project.
 
--   Materialize template was used throughout the project mainly to make site responsive using the [materialize 1.0.0](https://materializecss.com/)
+-   Bootstrap4 template was used throughout the project mainly to make site responsive using the [bootsrap 4.6.x](https://getbootstrap.com/)
 
 ### Content
 
@@ -241,9 +244,9 @@ Click [Here](https://help.github.com/en/github/creating-cloning-and-archiving-re
 
 ### Acknowledgements
 
--   
+-   My Mentor Dick Vlaanderen and Gerard Mcbride of Code Institute for their helpful guidiance and comments.  
 
--   
+-   Student Care and Tutor at Code Institute for their support.
 
 ### Author
 

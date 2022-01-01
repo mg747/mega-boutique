@@ -68,7 +68,7 @@
                             aria-haspopup="true" aria-expanded="false">
                             <div class="text-center">
                                 <div><i class="fas fa-user fa-lg"></i></div>
-                                <p class="my-0">My Account</p>
+                                <small class="my-0">MY AREA</small>
                             </div>
                         </a>
                         <div class="dropdown-menu border-0" aria-labelledby="user-options">
@@ -84,18 +84,29 @@
                             {% endif %}
                         </div>
                     </li>
+
+                    <li class="list-inline-item">
+                        <a class="{% if grand_total %}text-info font-weight-bold{% else %}text-black{% endif %} nav-link"
+                            href="">
+                            <div class="text-center">
+                                <div><i class="fas fa-heart"></i></div>
+                                <div>
+                                    <small class="my-0">WISHLIST</small>
+                            </div>
+                        </a>
+                    </li>
+
                     <li class="list-inline-item">
                         <a class="{% if grand_total %}text-info font-weight-bold{% else %}text-black{% endif %} nav-link"
                             href="{% url 'view_bag' %}">
                             <div class="text-center">
                                 <div><i class="fas fa-shopping-bag fa-lg"></i></div>
-                                <p class="my-0">
+                                <div>
                                     {% if grand_total %}
                                     €{{ grand_total|floatformat:2 }}
                                     {% else %}
-                                    €0.00
+                                    <small class="my-0">BAG</small>
                                     {% endif %}
-                                </p>
                             </div>
                         </a>
                     </li>
@@ -149,25 +160,40 @@
     </script>
     {% endblock %} 
 
-    <!-- End of page (footer) -->
-        <footer class="">
-            <div class="container-fluid" style="background-color:#000000">
-                <br>
-                <div class="social-media">Follow us on:
-                    <a href="https://www.facebook.com" target="_blank" class="fa fa-facebook"></a>
-                    <a href="https://www.twitter.com" target="_blank" class="fa fa-twitter"></a>
-                    <a href="https://www.instagram.com" target="_blank" class="fa fa-instagram"></a>
-                </div>
-                <a href="{ url 'about.html' }">About Us</a>
-                <div class="footer-copyright">
-                    <br>
-                    <p class="copyright text-white">Copyright &copy; Mega Boutique. <span id="copyright"></span> VAT
-                        number: IE 0964853127.
-                    </p>
-                    <br>
-                </div>
+     <!-- End of page (footer) is used across all the pages of our website -->
+<div class="container-fluid">
+    <footer>
+        <div class="container">
+            <div class="row">
+                    <div class="col-6 col-md fs15">
+                        <ul class="list-unstyled">
+                            <h3>STAY IN TOUCH</h3>
+                            <li><a class="grey-text text-lighten-3" href="#!">ABOUT US</a></li>
+                            <li><a class="grey-text text-lighten-3" href="#!">CONTACT US</a></li>
+                            <li><a class="grey-text text-lighten-3" href="#!">FAQS</a></li>
+                        </ul>
+                    </div>
+            <div class="col-6 col-md fs15">
+                <ul class="list-unstyled">
+                    <h3>SOCIAL</h3>
+                        <li>FACEBOOK<a href="https://www.facebook.com" target="_blank" class="fa fa-facebook"></a>
+                        </li>
+                        <li>TWITTER<a href="https://www.twitter.com" target="_blank" class="fa fa-twitter"></a></li>
+                        <li>INSTAGRAM<a href="https://www.instagram.com" target="_blank" class="fa fa-instagram"></a></li>
+                </ul>
             </div>
-        </footer>
+        </div>
+        </div>
+        <br>
+        <div class="footer-copyright">
+            <div class="container">
+                <div class="container-fluid">
+                    <small class="copyright text-muted">Copyright &copy; Mega Boutique <span id="copyright"></span> All
+                        Rights Reserved. VAT number: IE 096127</small>
+                </div>
+                <br>
+    </footer>
+</div>
 
     <script>
         $("#copyright").text(new Date().getFullYear());
