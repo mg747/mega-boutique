@@ -2,7 +2,7 @@
 {% load static %}
 
 {% block extra_css %}
-    <link rel="stylesheet" href="{% static 'profiles/css/profile.css' %}">
+<link rel="stylesheet" href="{% static 'profiles/css/profile.css' %}">
 {% endblock %}
 
 {% block page_header %}
@@ -66,6 +66,7 @@
                                         </ul>
                                     </td>
                                     <td>€{{ order.grand_total }}</td>
+                                    <p class="text-muted">includes tax</p>
                                 </tr>
                             {% endfor %}
                         </tbody>
@@ -73,6 +74,8 @@
                 </div>
             </div>
         </div>
+        <br>
+        <br>
 {% endblock %}
 
 {% block postloadjs %}
