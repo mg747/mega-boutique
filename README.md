@@ -2,9 +2,9 @@
 
 [View the live project here.](https://mg747.github.io/mega-boutique/)
 
-![Site Screenshot](ms4sitescreenshot.jpeg)
+![Site Screenshot](media/ms4sitescreenshot.jpeg)
 #### Site Name: MEGA BOUTIQUE
-#### Goal : Accessories, Menswears, Footwears, Gadgets, Home and Lifestyle
+#### Goal : Menswears, Footwears, Accessories, Gadgets, Home and Lifestyle
 
 ## Contents
 * [User Experience Design (UX)](#User-Experience-Design)
@@ -75,11 +75,11 @@
 -   #### Desktop View
 
 #### Home Page Skeleton Plane
-![Home Page Skeleton Plane](static/images/homepagescreenshot.png)
+![Home Page Skeleton Plane](media/desktop.png)
 
 -   #### Mobile View
 #### Home Page Skeleton Plane
-![Home Page Skeleton Plane](static/images/mobilehomepagescreenshot.png)
+![Home Page Skeleton Plane](media/mobile.png)
 
 ## Features
 
@@ -137,7 +137,7 @@ The W3C Markup Validator and W3C CSS Validator Services were used to validate ev
 
     1. As a Shopper, I want to be able to view a list of products, so that I can select an item to purchase.
 
-      1. Upon entering the site. The homepage navigation bar have links to list of products and categories, user have the option to view all products or search for a specific product. ![](ms4screenshot1.jpeg)
+      1. Upon entering the site. The homepage navigation bar have links to list of products and categories, user have the option to view all products or search for a specific product. ![](media/ms4screenshot1.jpeg)
 
     2. As a Site User, I want to be able to register for an account and have a personalised user profile.
 
@@ -145,13 +145,13 @@ The W3C Markup Validator and W3C CSS Validator Services were used to validate ev
 
     3. As a First Time Visitor, I want to locate the site social media links to see past and present post about the site service.
        
-      1. The social media links is on the footer on every page of the site. ![](ms4screenshot2.jpeg)
+      1. The social media links is on the footer on every page of the site. ![](media/ms4screenshot2.jpeg)
 
 -   #### Returning User Goals
 
     1. As a Returning User, I want to see information about new products.
 
-      1. Returning user can find contents about new products on the home page or click on New Arrivals link on the navbar. ![](ms4screenshot3) 
+      1. Returning user can find contents about new products on the home page or click on New Arrivals link on the navbar. ![](media/ms4screenshot3.jpeg) 
     
     2. As a Returning Visitor, I want to find the best way to get in contact with customer service with any questions I may have.
 
@@ -190,7 +190,7 @@ The project was deployed to GitHub Pages using the following steps...
 3. Scroll down the Settings page until you locate the "GitHub Pages" Section then click to open Github pages tab.
 4. Under "Source", click the dropdown called "None" and select "Main".
 5. The page will automatically refresh.
-6. Scroll back down through the page to locate the now published site [link](https://mg747.github.io/gfit-and-wellness/) in the "GitHub Pages" section.
+6. Scroll back down through the page to locate the now published site [link](https://mg747.github.io/mega-boutique/) in the "GitHub Pages" section.
 
 ### Forking the GitHub Repository
 
