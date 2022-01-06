@@ -121,7 +121,9 @@
 11. [Postgresql:](https://postgresql.org/)
     - Mongodb was used to create database and to connect server to our site.
 12. [Stripe:](https://stripe.com/)
-    - Stripe was used to accept and authorise payment for any item purchased on the site.    
+    - Stripe was used to accept and authorise payment for any item purchased on the site.
+13. [AWS:](https://s3.console.aws.amazon.com/)
+    - Amazon S3 was used to manage and save media and collectstatic file in Its cloud service.        
 
 ## Testing
 
@@ -176,7 +178,11 @@ The W3C Markup Validator and W3C CSS Validator Services were used to validate ev
 
 ### Known Bugs
 
--   No known bug at the time I tested the site/app. I will continue to debug and check to ensure that the site is working efficiently. Although w3c markup validator shows syntax error message because of jinja URL links used in code.  
+-   No known bug at the time I tested the site/app. I will continue to debug and check to ensure that the site is working efficiently. Although w3c markup validator shows syntax error message because of jinja URL links used in code.
+
+### Known Issues
+
+- The About us link, Contact link, Faqs link, and Wishlist is not active and rendering yet because I didn't have enough time to finish it as I'm overdue to submit the project. I intend to further commit to this project and  fix these issues and to also add other cool functionalities for a better user experience as soon as I gain access back to my workspace.
 
 ## Deployment
 

@@ -10,6 +10,10 @@ https://docs.djangoproject.com/en/3.2/ref/settings/
 import os
 import dj_database_url
 import django_heroku
+import boto3
+
+# Let's use Amazon S3
+s3 = boto3.resource('s3')
 
 # Build paths inside the project like this: os.path.join(BASE_DIR, ...)
 BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
@@ -24,7 +28,7 @@ SECRET_KEY = ','
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['https://git.heroku.com/mega-boutique.git', '*', 'localhost']
+ALLOWED_HOSTS = ['https://mega-boutique.herokuapp.com/', 'localhost']
 
 
 # Application definition
