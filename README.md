@@ -178,11 +178,11 @@ The W3C Markup Validator and W3C CSS Validator Services were used to validate ev
 
 ### Known Bugs
 
--   No known bug at the time I tested the site/app. I will continue to debug and check to ensure that the site is working efficiently. Although w3c markup validator shows syntax error message because of jinja URL links used in code.
+-   There is a bug with heroku displaying my deployed site even when it says my app was successfully deployed, It say (Invalid HTTP_HOST header: 'mega-boutique.herokuapp.com'. You may need to add 'mega-boutique.herokuapp.com' to ALLOWED_HOSTS.) I've done exactly that and I've also tried other alternatives, at the moment my site can only display through gitpod. I intend to fix this after the accessment and will continue to debug and check to ensure that the site is working efficiently.
 
 ### Known Issues
 
-- The About us link, Contact link, Faqs link, and Wishlist is not active and rendering yet because I didn't have enough time to finish it as I'm overdue to submit the project. I intend to further commit to this project and  fix these issues and to also add other cool functionalities for a better user experience as soon as I gain access back to my workspace.
+- The About us link, Contact link, Faqs link, and Wishlist is not active and rendering yet because I didn't have enough time to finish it as I'm overdue to submit the project. I intend to further commit to this project and  fix these issues and to also add other features and functionalities for a better user experience as soon as I gain access back to my workspace.
 
 ## Deployment
 
