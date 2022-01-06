@@ -28,7 +28,7 @@ SECRET_KEY = ','
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = False
 
-ALLOWED_HOSTS = ["https://mega-boutique.herokuapp.com/', '127.0.0.1', 'localhost"]
+ALLOWED_HOSTS = ["https://mega-boutique.herokuapp.com/", "127.0.0.1", "localhost"]
 
 
 # Application definition
@@ -177,7 +177,7 @@ STATICFILES_ROOT = (os.path.join(BASE_DIR, 'static'),)
 
 # Extra places for collectstatic to find static files.
 STATICFILES_DIRS = (
-    os.path.join(BASE_DIR, 'static'),)
+    os.path.join(BASE_DIR, 'static'),)    
 
 MEDIA_URL = '/media/'
 MEDIA_ROOT = os.path.join(BASE_DIR, 'media')
