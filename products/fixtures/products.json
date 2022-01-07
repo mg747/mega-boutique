@@ -3,7 +3,7 @@
       "model": "products.product",
       "fields": {
          "sku": "NKS101604",
-         "name": "NIKE CITY MADE CREW SWEAT",
+         "name": "Nike City Made Crew Sweat",
          "description": "Dress for cold, rainy days with this black sweat from Nike. Crafted from cotton French terry, it's styled black, then overlayed with nylon mesh for added durability and protection from the elements. You'll also find reflective logos printed on the chest and back for a signature finishing touch",
          "price": 80,
          "category": 1,
@@ -16,7 +16,7 @@
       "model": "products.product",
       "fields": {
          "sku": "BS211604",
-         "name": "BALENCIA POPOVER HOODY",
+         "name": "Balenciaga Popover Hoody",
          "description": "Balencia teams up with The Simpsons TM & © 20th Television to dress Springfield's most dysfunctional family in iconic pieces from the brand's archive on the chest of this hoody. Made in Italy from fleece-lined cotton, it's styled with dropped shoulders for an oversized look and comes equipped with ribbed trims for added warmth.100% CottonFleeceback JerseyOversizedFixed HoodPouch PocketRibbed TrimsMade in Italy",
          "price": 174,
          "category": 2,
@@ -29,7 +29,7 @@
       "model": "products.product",
       "fields": {
          "sku": "VT311604",
-         "name": "VALENTINO V DETAIL WOOL & CASHMERE COAT",
+         "name": "Valentino V Detail Coat",
          "description": "Composition: 90% Virgin Wool, 10% Cashmere. Made in Italy",
          "price": 200,
          "category": 3,
@@ -42,7 +42,7 @@
       "model": "products.product",
       "fields": {
          "sku": "MA411640",
-         "name": "MONCLER AVEILLAN FLANELLE LEGERE DOWN JACKET",
+         "name": "Moncler Aveillan Down Jacket",
          "description": "Front snap button and concealed zip closure.",
          "price": 199,
          "category": 4,
@@ -55,7 +55,7 @@
       "model": "products.product",
       "fields": {
          "sku": "MC411640",
-         "name": "CIESSE DOWN JACKET",
+         "name": "Ciesse Down Jacket",
          "description": "Contains non-textile parts of animal origin",
          "price": 299,
          "category": 4,
@@ -68,7 +68,7 @@
       "model": "products.product",
       "fields": {
          "sku": "GD511604",
-         "name": "G DEPT. DISTRESSED DENIM JEANS",
+         "name": "G Dept. Distressed Jeans",
          "description": "G Dept.'s founder Mr Osué Tom is passionate about vintage, I've always loved collecting and seeing the aged pieces of clothing my parents had, he told us. These distressed, slim-fit jeans are made from re-purposed Levi's '501's with side inserts to achieve flared hems",
          "price": 174,
          "category": 5,
@@ -81,8 +81,8 @@
       "model": "products.product",
       "fields": {
          "sku": "IV61604",
-         "name": "ISVIM - STRAIGHT-LEG COTTON-TWILL CHINOS",
-         "description": "Isvim's chinos are cut in a straight-leg shape from crisp cotton-twill. They work well with low-top sneakers and can easily be smartened up with pressed creases and loafers",
+         "name": "Visvim - Straight Leg Chinos",
+         "description": "Visvim's chinos are cut in a straight-leg shape from crisp cotton-twill. They work well with low-top sneakers and can easily be smartened up with pressed creases and loafers",
          "price": 174,
          "category": 6,
          "rating": 5,
@@ -94,7 +94,7 @@
       "model": "products.product",
       "fields": {
          "sku": "BP71604",
-         "name": "B PLUS - EMBROIDERY OXFORD COTTON SHIRT",
+         "name": "B Plus - Oxford Cotton Shirt",
          "description": "B Plus looks at vintage Americana to inform its designs. This oxford shirt has a relaxed collar that can be buttoned up to the top, should you need something a little smarter",
          "price": 99,
          "category": 7,
@@ -107,7 +107,7 @@
       "model": "products.product",
       "fields": {
          "sku": "JA811604",
-         "name": "J ANDERSON - PATCHWORK CARDIGAN",
+         "name": "J Anderson - Patchwork Cardigan",
          "description": "Jonathan Anderson is very interested in making, which is the focus of our arts and crafts-inspired capsule. This chunky cotton-blend cardigan is rib-knitted in a '70s-reminiscent colour scheme of brown, yellow and green. The blanket-stitched cuffs, elbow patches and contrasting placket make it look almost one-of-a-kind",
          "price": 99,
          "category": 8,
@@ -120,7 +120,7 @@
       "model": "products.product",
       "fields": {
          "sku": "VT911604",
-         "name": "VETEMENTS - PATCHWORK PRINTED COTTON-JERSEY T-SHIRT - BLACK",
+         "name": "Vetements - Patchwork T-Shirt",
          "description": "Vetements' collections combine a certain irreverence with subculture and musical influences, this T-shirt is a great example of the latter. It's cut from cotton-jersey for a loose fit and patchworked with heavy metal-inspired symbols and the latest 'J'Adore Hardcore' slogan.",
          "price": 50,
          "category": 9,
@@ -133,7 +133,7 @@
       "model": "products.product",
       "fields": {
          "sku": "BV1011604",
-         "name": "BOTTEGA VENETA - BOUNCE LEATHER ANKLE BOOTS",
+         "name": "Bottega Veneta - Bounce Leather Ankle Boots",
          "description": "Designed with elasticated sides and double pull tabs, this Italian-made pair has robust rubber-lug soles, so they'll work particularly well with slim trousers.",
          "price": 213,
          "category": 10,
@@ -146,7 +146,7 @@
       "model": "products.product",
       "fields": {
          "sku": "CH1111604",
-         "name": "CHURCH'S LEATHER DERBY SHOES",
+         "name": "Church's Leather Derby Shoes ",
          "description": "Buffed calfskin derbys in burgundy. Tonal lace-up closure. Rubber outsole featuring Leather lining. Approx. 30mm Heel.",
          "price": 209,
          "category": 11,
@@ -159,7 +159,7 @@
       "model": "products.product",
       "fields": {
          "sku": "PR1211604",
-         "name": "PRADA - LOGO LEATHER LOAFERS",
+         "name": "Prada - Logo Leather Loafers",
          "description": "Prada's loafers riff on classic equestrian design with logo detailing the vamps. Set on a slight heel, they've been expertly made in the Italy on the brand's signature almond-toe last from leather and finished with hand-stitched rolled aprons",
          "price": 229,
          "category": 12,
@@ -172,7 +172,7 @@
       "model": "products.product",
       "fields": {
          "sku": "GC1021604",
-         "name": "GUCCI x NORTH FACE",
+         "name": "Gucci x North Face",
          "description": "Leather Hiking Boots",
          "price": 199,
          "category": 10,
@@ -185,7 +185,7 @@
       "model": "products.product",
       "fields": {
          "sku": "LN1411640",
-         "name": "LANVIN ZIGZAG LACE-UP CURB SNEAKERS",
+         "name": "Lanvin Zigzag Curb Sneakers",
          "description": "It isn't that glass of wine you've had at lunch, it's just your shoe laces that are colourfully zig-zaging on these black sneakers from Anvin. Straight lines are overrated.",
          "price": 213,
          "category": 14,
@@ -198,7 +198,7 @@
       "model": "products.product",
       "fields": {
          "sku": "PP153177",
-         "name": "POLS POTTEN",
+         "name": "Pols Potten",
          "description": "Medium lobby smoke gold vase",
          "price": 68,
          "category": 15,
@@ -211,7 +211,7 @@
       "model": "products.product",
       "fields": {
          "sku": "AD152177",
-         "name": "ADRÒ",
+         "name": "Adro",
          "description": "The Essence of Life Figurine.",
          "price": 49,
          "category": 15,
@@ -224,7 +224,7 @@
       "model": "products.product",
       "fields": {
          "sku": "RL821604",
-         "name": "RALPH LAUREN PURPLE LABEL - CASHMERE SWEATER",
+         "name": "Ralph Lauren - Sweater",
          "description": "Ralph Lauren Purple Label's sweater is hand-spun from camel and cream cashmere - the intarsia pattern takes cues from Nordic styles. It has a thick handle and a warm shawl collar that's ribbed to create a little extra structure. Layer a T-shirt underneath. 100% Cashmere",
          "price": 150,
          "category": 8,
@@ -237,8 +237,8 @@
       "model": "products.product",
       "fields": {
          "sku": "AM441604",
-         "name": "AMIRI PLAYBOY DENIM TRUCKER JACKET",
-         "description": "AMIRI has a way of making a classic feel anything but ordinary. This denim jacket is heavily distressed and decorated with vintage Playboy covers with the label's signature slash effect and a frayed bunny across the back. Entertainment for all",
+         "name": "Amiri Playboy Denim Jacket",
+         "description": "Amiri has a way of making a classic feel anything but ordinary. This denim jacket is heavily distressed and decorated with vintage Playboy covers with the label's signature slash effect and a frayed bunny across the back. Entertainment for all",
          "price": 179,
          "category": 4,
          "rating": 5,
@@ -250,7 +250,7 @@
       "model": "products.product",
       "fields": {
          "sku": "AR19177",
-         "name": "ADRÒ",
+         "name": "Adro",
          "description": "Panther Figurine",
          "price": 59,
          "category": 19,
@@ -263,7 +263,7 @@
       "model": "products.product",
       "fields": {
          "sku": "AM1431604",
-         "name": "AMIRI SNEAKERS",
+         "name": "Amiri Skel Sneakers",
          "description": "Bone Runner Low-Top Suede Sneakers.",
          "price": 215,
          "category": 14,
@@ -276,7 +276,7 @@
       "model": "products.product",
       "fields": {
          "sku": "SL1421604",
-         "name": "SAINT LAURENT",
+         "name": "Saint Lauren Sneakers",
          "description": "Smith Grained Leather Sneakers",
          "price": 119,
          "category": 14,
@@ -289,7 +289,7 @@
       "model": "products.product",
       "fields": {
          "sku": "AR153177",
-         "name": "ADRÒ",
+         "name": "Adro",
          "description": "The Guest by Supakitch",
          "price": 109,
          "category": 15,
@@ -302,7 +302,7 @@
       "model": "products.product",
       "fields": {
          "sku": "DS163177",
-         "name": "SELETTI GLOWING STARMAN",
+         "name": "Seletti Glowing Starman",
          "description": "Table Lamps",
          "price": 40,
          "category": 16,
@@ -315,7 +315,7 @@
       "model": "products.product",
       "fields": {
          "sku": "SL153177",
-         "name": "SELETTI",
+         "name": "Seletti",
          "description": "Wall Lamps",
          "price": 50,
          "category": 15,
@@ -328,7 +328,7 @@
       "model": "products.product",
       "fields": {
          "sku": "BV1441604",
-         "name": "BOTTEGA VENETA SKATE",
+         "name": "Bottega Veneta Skate",
          "description": "The Quilt Leather Roller Skates Sneaker, Supplier color: Green",
          "price": 250,
          "category": 14,
@@ -341,7 +341,7 @@
       "model": "products.product",
       "fields": {
          "sku": "MP421604",
-         "name": "GENIUS x PALM ANGELS PANAMINT DOWN JACKET",
+         "name": "Genius x Palm Angels Panamint Down Jacket",
          "description": "Designer Francesco Ragazzi was inspired by the idea of the vintage store in devising the 8 MONCLER PALM ANGELS FW21 collection: a place where many disparate elements mix and magically come together. Eschewing seasonal clichés, Ragazzi approaches a lineup of archetypes: puffer jackets and vests, the Hawaiian shirt, sweaters, tracksuits, sweatshirts, and Moon Boots. For this collection, Ragazzi has refashioned the signature Moncler logo, replacing the cockerel emblem with an elegant palm tree which sprouts a pair of angel wings, mirroring the collaboration name. Ragazzi has also launched his first collaboration for Moncler Palm Angels with the iconic Italian brand Moon Boot, transforming the traditional puffer-style boot in a playful and unexpected animal print. Championing Moncler’s commitment to a more sustainable future, the 8 MONCLER PALM ANGELS collection features fabrics crafted from low impact materials such as ECONYL®, organic cotton, and recycled metal components.",
          "price": 199,
          "category": 4,
@@ -354,7 +354,7 @@
       "model": "products.product",
       "fields": {
          "sku": "MP431604",
-         "name": "GENIUS x PALM ANGELS IDYLLWILD DOWN JACKET",
+         "name": "Genius x Palm Angels Idyllwild Down Jacket",
          "description": "Designer Francesco Ragazzi was inspired by the idea of the vintage store in devising the 8 MONCLER PALM ANGELS FW21 collection: a place where many disparate elements mix and magically come together. Eschewing seasonal clichés, Ragazzi approaches a lineup of archetypes: puffer jackets and vests, the Hawaiian shirt, sweaters, tracksuits, sweatshirts, and Moon Boots. For this collection, Ragazzi has refashioned the signature Moncler logo, replacing the cockerel emblem with an elegant palm tree which sprouts a pair of angel wings, mirroring the collaboration name. Ragazzi has also launched his first collaboration for Moncler Palm Angels with the iconic Italian brand Moon Boot, transforming the traditional puffer-style boot in a playful and unexpected animal print. Championing Moncler’s commitment to a more sustainable future, the 8 MONCLER PALM ANGELS collection features fabrics crafted from low impact materials such as ECONYL®, organic cotton, and recycled metal components",
          "price": 199,
          "category": 4,
@@ -367,7 +367,7 @@
       "model": "products.product",
       "fields": {
          "sku": "BO163177",
-         "name": "BANG & OLUFSEN",
+         "name": "Bang & Olufsen",
          "description": "Beoplay H95 Headphones",
          "price": 129,
          "category": 16,
@@ -380,7 +380,7 @@
       "model": "products.product",
       "fields": {
          "sku": "BC521604",
-         "name": "BRUNELLO CUCINELLI - SELVEDGE JEANS",
+         "name": "Brunello Cucinelli - Selvedge Jeans",
          "description": "Brunello Cucinelli chose gold-standard selvedge denim to create these jeans, which naturally fades over time and has 'self-edges' that are less likely to fray. They're cut in the brand's comfortable straight-leg 'Leisure' fit and have a classic indigo wash.",
          "price": 150,
          "category": 5,
