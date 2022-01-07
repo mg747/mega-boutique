@@ -406,7 +406,7 @@
       "model": "products.product",
       "fields": {
          "sku": "LE201604",
-         "name": "LOEWE - ANAGRAM STRIPED MOHAIR & WOOL SCARF",
+         "name": "Loewe - Anagram Striped Mohair Scarf",
          "description": "Composition: 50% Mohair, 48% Wool, 2% Polyamide",
          "price": 79,
          "category": 20,
@@ -419,7 +419,7 @@
       "model": "products.product",
       "fields": {
          "sku": "NE201604",
-         "name": "NEW ERA TECH CHECK 9TWENTY CAP",
+         "name": "New Era Tech Cap",
          "description": "All over pattern placement may vary",
          "price": 34,
          "category": 20,
@@ -432,7 +432,7 @@
       "model": "products.product",
       "fields": {
          "sku": "BC201604",
-         "name": "BALENCIA LOGO PRINT TECH MASK",
+         "name": "Balenciaga Logo Print Tech Mask",
          "description": "Not medical grade",
          "price": 40,
          "category": 20,
@@ -445,8 +445,8 @@
       "model": "products.product",
       "fields": {
          "sku": "MW201604",
-         "name": "MASTERMIND WORLD ADJUSTABLE LOGO BELT",
-         "description": "Width: 3cm",
+         "name": "Mastermind World Logo Belt",
+         "description": "Width: 3cm Adjustable",
          "price": 174,
          "category": 20,
          "rating": 5,
@@ -458,7 +458,7 @@
       "model": "products.product",
       "fields": {
          "sku": "AM1441604",
-         "name": "AMIRI SNEAKERS",
+         "name": "Amiri Skel Sneakers",
          "description": "These black and red AMIRI Skel-Top leather sneakers are a high top design and feature panelled uppers, lace-up closure, rear pull tabs, rubber soles, and a silver tone hardware deubré and tag. We do indeed have great bone structure, and thanks to these AMIRI trainers it'll be even further improved.",
          "price": 179,
          "category": 14,
@@ -471,7 +471,7 @@
       "model": "products.product",
       "fields": {
          "sku": "SI311604",
-         "name": "STONE ISLAND TRENCH COAT",
+         "name": "Stone Island Trench Coat",
          "description": "Lucido-TC Trench Coat W/ Dectachable Vest",
          "price": 200,
          "category": 3,
@@ -484,7 +484,7 @@
    "model": "products.product",
    "fields": {
       "sku": "BO164177",
-      "name": "BANG & OLUFSEN",
+      "name": "Bang & Olufsen",
       "description": "Beosound exlpore speaker",
       "price": 199,
       "category": 16,
@@ -497,7 +497,7 @@
    "model": "products.product",
    "fields": {
       "sku": "TF169177",
-      "name": "TOM FORD - LOGO LEATHER AIRPODS CASE",
+      "name": "Tom Ford - Logo Leather Airpods Case",
       "description": "Made in Italy",
       "price": 49,
       "category": 16,
@@ -506,11 +506,11 @@
    }
 },
 {
-   "pk": 38,
+   "pk": 39,
    "model": "products.product",
    "fields": {
       "sku": "BV164177",
-      "name": "BOTTEGA VENETA - SILICONE IPHONE 13 PRO COVER",
+      "name": "Bottega Veneta - iPhone 13 Pro Cover",
       "description": "Made in Italy",
       "price": 49,
       "category": 16,
@@ -519,12 +519,12 @@
    }
 },
 {
-   "pk": 10,
+   "pk": 40,
    "model": "products.product",
    "fields": {
       "sku": "BV10151604",
-      "name": "BOTTEGA VENETA EXAGGERATED LEATHER ANKLE BOOTS",
-      "description": "Designed with elasticated sides, this Italian-made pair has exaggerated rubber-lug soles",
+      "name": "Bottega Veneta Exaggerated Leather Ankle Boots",
+      "description": "Designed with elasticated sides, this Italian-made leather pair has exaggerated rubber-lug soles",
       "price": 213,
       "category": 10,
       "rating": 4.7,
@@ -532,11 +532,11 @@
    }
 },
 {
-   "pk": 13,
+   "pk": 41,
    "model": "products.product",
    "fields": {
       "sku": "MB1311604",
-      "name": "MANOLO BLAHNIK - HENLEY LEATHER LACE-UP OXFORD SHOES",
+      "name": "Manolo Blahnik- Henley Leather Oxford Shoes",
       "description": "Made in Italy",
       "price": 199,
       "category": 13,
