@@ -13,8 +13,6 @@ import django_heroku
 import boto3
 
 # Let's use Amazon S3
-s3 = boto3.resource('s3')
-
 # Build paths inside the project like this: os.path.join(BASE_DIR, ...)
 BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 
