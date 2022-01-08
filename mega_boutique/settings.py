@@ -120,7 +120,7 @@ WSGI_APPLICATION = 'mega_boutique.wsgi.application'
 DATABASES['default'] = dj_database_url.config()
 
 if  ON_HEROKU:
-    DATABASE_URL = 'postgresql://<postgresql>'
+    DATABASE_URL = 'postgresql://<postgresql>',
 else:
     DATABASE_URL = 'sqlite:///' + os.path.join(BASE_DIR, 'db.sqlite3')
 
