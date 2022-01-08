@@ -1,6 +1,6 @@
 <h1 align="center">MS-4-PROJECT</h1>
 
-[View the live project here.](https://mg747.github.io/mega-boutique/)
+[View the live project here.](https://mega-boutique.herokuapp.com/)
 
 ![Site Screenshot](media/ms4sitescreenshot.jpeg)
 #### Site Name: MEGA BOUTIQUE
@@ -178,7 +178,7 @@ The W3C Markup Validator and W3C CSS Validator Services were used to validate ev
 
 ### Known Bugs
 
--   There is a bug with heroku displaying my deployed site even when it says my app was successfully deployed, It say (Invalid HTTP_HOST header: 'mega-boutique.herokuapp.com'. You may need to add 'mega-boutique.herokuapp.com' to ALLOWED_HOSTS.) I've done exactly that and I've also tried other alternatives, at the moment my site can only display through gitpod. I intend to fix this after the accessment and will continue to debug and check to ensure that the site is working efficiently.
+-   There is no known bug. I will continue to debug and check to ensure that the site is working efficiently.
 
 ### Known Issues
 

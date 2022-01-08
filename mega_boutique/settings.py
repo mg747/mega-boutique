@@ -119,9 +119,11 @@ WSGI_APPLICATION = 'mega_boutique.wsgi.application'
 
 # Database
 # https://docs.djangoproject.com/en/3.2/ref/settings/#databases
-
-# Database
-# https://docs.djangoproject.com/en/3.2/ref/settings/#databases
+DATABASES = {
+    'default': {
+        'ENGINE': 'django.db.backends.postgresql_psycopg2',
+    }
+}
 
 if 'DATABASE_URL' in os.environ:
     DATABASES = {

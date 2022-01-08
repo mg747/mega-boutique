@@ -145,11 +145,11 @@
       "pk": 11,
       "model": "products.product",
       "fields": {
-         "sku": "CH1111604",
+         "sku": "CH1221604",
          "name": "Church's Leather Derby Shoes ",
          "description": "Buffed calfskin derbys in burgundy. Tonal lace-up closure. Rubber outsole featuring Leather lining. Approx. 30mm Heel.",
          "price": 209,
-         "category": 11,
+         "category": 12,
          "rating": 3.5,
          "image": "productimage21.webp"
       }
@@ -393,7 +393,7 @@
       "model": "products.product",
       "fields": {
          "sku": "GC821604",
-         "name": "GUCCI - LOGO APPLIQUED TECH-JERSEY HOODIE",
+         "name": "Gucci - Logo Tech-Jersey Hoodie",
          "description": "Mr Alessandro Michele is a vintage sportswear enthusiast, so he regularly includes tracksuits in Gucci's collections. This high-shine tech-jersey hoodie has an appliquéd logo on the chest and the maison's signature striped webbing down each sleeve. Wear it with the matching shorts",
          "price": 250,
          "category": 8,
@@ -535,11 +535,11 @@
    "pk": 41,
    "model": "products.product",
    "fields": {
-      "sku": "MB1311604",
+      "sku": "MB1231604",
       "name": "Manolo Blahnik- Henley Leather Oxford Shoes",
       "description": "Made in Italy",
       "price": 199,
-      "category": 13,
+      "category": 12,
       "rating": 4.7,
       "image": "productimage56.webp"
    }
