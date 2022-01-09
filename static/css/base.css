@@ -1,9 +1,3 @@
-@import url(https://fonts.googleapis.com/css?family=Roboto:400,900);
-@media(max-width: 639px) {
-}
-.selector-for-some-widget {
-  box-sizing: content-box;
-}
 /* Body styling */
 * {
     margin:0;
@@ -192,6 +186,10 @@ a.category-badge > span.badge:hover {
     cursor: pointer;
 }
 
+input[name='q']::placeholder {
+    color: #aab7c4;
+}
+
 /* Bootstrap toasts */
 .message-container {
     position: fixed;
@@ -208,7 +206,7 @@ a.category-badge > span.badge:hover {
     height: 2px;
 }
 
-/* Code copie from CSS-tricks.com: https://css-tricks.com/snippets/css/css-triangle/ */
+/* Code copied from CSS-tricks.com: https://css-tricks.com/snippets/css/css-triangle/ */
 .arrow-up {
     width: 0; 
     height: 0; 
@@ -258,6 +256,15 @@ a.category-badge > span.badge:hover {
     overflow-x: hidden;
     overflow-y: auto;
 }
+
+/* Media Queries */
+
+/* Slightly larger container on xl screens */
+@media (min-width: 1200px) {
+    .container {
+      max-width: 80%;
+    }
+  }
 
 /* Allauth form formatting */
 
@@ -341,15 +348,6 @@ a.category-badge > span.badge:hover {
     border-radius: 0;
 }
 
-/* Media Queries */
-
-/* Slightly larger container on xl screens */
-@media (min-width: 1200px) {
-    .container {
-      max-width: 80%;
-    }
-  }
-  
 /* fixed top navbar only on medium and up */
 @media (min-width: 992px) {
     .fixed-top-desktop-only {
