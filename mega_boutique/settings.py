@@ -121,10 +121,12 @@ WSGI_APPLICATION = 'mega_boutique.wsgi.application'
 # Database
 # https://docs.djangoproject.com/en/3.2/ref/settings/#databases
 if 'DATABASE_URL' in os.environ:
+    print("Loading postgres db .....")
     DATABASES = {
         'default': dj_database_url.parse(os.environ.get('DATABASE_URL'))
     }
 else:
+    print("Loading local db....")
     DATABASES = {
         'default': {
             'ENGINE': 'django.db.backends.sqlite3',
