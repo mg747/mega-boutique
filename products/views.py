@@ -4,7 +4,7 @@ from django.contrib.auth.decorators import login_required
 from django.db.models import Q
 from django.db.models.functions import Lower
 
-from .models import Product, Category
+from .models import Product, Category, ProductReview, Wishlist
 from .forms import ProductForm
 
 # Create your views here.
@@ -63,9 +63,21 @@ def product_detail(request, product_id):
     """ A view to show individual product details """
 
     product = get_object_or_404(Product, pk=product_id)
+    reviews = product.reviews.all()
+    user_review = None
+    in_wishlist = False
+    
+    if request.user.is_authenticated:
+        user_review = ProductReview.objects.filter(product=product, user=request.user).first()
+        in_wishlist = Wishlist.objects.filter(user=request.user, product=product).exists()
 
     context = {
         'product': product,
+        'reviews': reviews,
+        'user_review': user_review,
+        'in_wishlist': in_wishlist,
+        'average_rating': product.get_average_rating(),
+        'rating_count': product.get_rating_count(),
     }
 
     return render(request, 'products/product_detail.html', context)
@@ -136,4 +148,78 @@ def delete_product(request, product_id):
     product = get_object_or_404(Product, pk=product_id)
     product.delete()
     messages.success(request, 'Product deleted!')
+    return redirect(reverse('products'))
+
+
+@login_required
+def add_to_wishlist(request, product_id):
+    """Add a product to user's wishlist"""
+    product = get_object_or_404(Product, pk=product_id)
+    wishlist_item, created = Wishlist.objects.get_or_create(
+        user=request.user,
+        product=product
+    )
+    
+    if created:
+        messages.success(request, f'Added {product.name} to your wishlist!')
+    else:
+        messages.info(request, f'{product.name} is already in your wishlist.')
+    
+    return redirect(request.META.get('HTTP_REFERER', 'products'))
+
+
+@login_required
+def remove_from_wishlist(request, product_id):
+    """Remove a product from user's wishlist"""
+    product = get_object_or_404(Product, pk=product_id)
+    
+    try:
+        wishlist_item = Wishlist.objects.get(user=request.user, product=product)
+        wishlist_item.delete()
+        messages.success(request, f'Removed {product.name} from your wishlist.')
+    except Wishlist.DoesNotExist:
+        messages.error(request, 'Product not found in your wishlist.')
+    
+    return redirect(request.META.get('HTTP_REFERER', 'products'))
+
+
+@login_required
+def view_wishlist(request):
+    """Display user's wishlist"""
+    wishlist_items = Wishlist.objects.filter(user=request.user).select_related('product')
+    
+    context = {
+        'wishlist_items': wishlist_items,
+    }
+    
+    return render(request, 'products/wishlist.html', context)
+
+
+@login_required
+def add_review(request, product_id):
+    """Add or update a product review"""
+    product = get_object_or_404(Product, pk=product_id)
+    
+    if request.method == 'POST':
+        rating = request.POST.get('rating')
+        comment = request.POST.get('comment', '')
+        
+        if rating:
+            review, created = ProductReview.objects.update_or_create(
+                product=product,
+                user=request.user,
+                defaults={
+                    'rating': int(rating),
+                    'comment': comment
+                }
+            )
+            
+            if created:
+                messages.success(request, 'Thank you for your review!')
+            else:
+                messages.success(request, 'Your review has been updated!')
+        else:
+            messages.error(request, 'Please select a rating.')
+    
+    return redirect('product_detail', product_id=product_id)
     return redirect(reverse('products'))

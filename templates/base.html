@@ -8,7 +8,24 @@
     {% block meta %}
         <meta http-equiv="X-UA-Compatible" content="ie=edge">
         <meta charset="utf-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no, viewport-fit=cover">
+        
+        <!-- PWA Meta Tags -->
+        <meta name="mobile-web-app-capable" content="yes">
+        <meta name="apple-mobile-web-app-capable" content="yes">
+        <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+        <meta name="apple-mobile-web-app-title" content="BYYOUANDIANDAI">
+        <meta name="application-name" content="BYYOUANDIANDAI">
+        <meta name="theme-color" content="#000000">
+        <meta name="description" content="Discover curated luxury fashion and accessories at BYYOUANDIANDAI">
+        
+        <!-- iOS Icons -->
+        <link rel="apple-touch-icon" sizes="180x180" href="{% static 'icons/apple-touch-icon.png' %}">
+        <link rel="icon" type="image/png" sizes="32x32" href="{% static 'icons/favicon-32x32.png' %}">
+        <link rel="icon" type="image/png" sizes="16x16" href="{% static 'icons/favicon-16x16.png' %}">
+        
+        <!-- PWA Manifest -->
+        <link rel="manifest" href="{% static 'manifest.json' %}">
     {% endblock %}
 
     {% block extra_meta %}
@@ -35,24 +52,24 @@
     {% block extra_js %}
     {% endblock %}
 
-    <title>Mega Boutique {% block extra_title %}{% endblock %}</title>
+    <title>BYYOUANDIANDAI {% block extra_title %}{% endblock %}</title>
 </head>
 
 <body>
     <header class="container-fluid fixed-top">
-        <div id="topnav" class="row bg-white pt-lg-2 d-none d-lg-flex">
+        <div id="topnav" class="row pt-lg-2 d-none d-lg-flex" style="background-color: #2a2a2a;">
             <div class="col-12 col-lg-4 my-auto py-1 py-lg-0 text-center text-lg-left">
                 <a href="{% url 'home' %}" class="nav-link main-logo-link">
-                    <h2 class="logo-font text-black my-0"><strong>Mega</strong> Boutique</h2>
+                    <h2 class="logo-font my-0" style="color: #fff; font-weight: 300; letter-spacing: 2px;">BYYOUANDIANDAI</h2>
                 </a>
             </div>
             <div class="col-12 col-lg-4 my-auto py-1 py-lg-0">
                 <form method="GET" action="{% url 'products' %}">
                     <div class="input-group w-100">
-                        <input class="form-control border border-black rounded-0" type="text" name="q"
-                            placeholder="Search our site">
+                        <input class="form-control border rounded-0" type="text" name="q"
+                            placeholder="Search our site" style="background-color: #1a1a1a; color: #e0e0e0; border-color: #444;">
                         <div class="input-group-append">
-                            <button class="form-control btn btn-black border border-black rounded-0" type="submit">
+                            <button class="form-control btn rounded-0" type="submit" style="background-color: #444; color: #fff; border-color: #444;">
                                 <span class="icon">
                                     <i class="fas fa-search"></i>
                                 </span>
@@ -64,8 +81,8 @@
             <div class="col-12 col-lg-4 my-auto py-1 py-lg-0">
                 <ul class="list-inline list-unstyled text-center text-lg-right my-0">
                     <li class="list-inline-item dropdown">
-                        <a class="text-black nav-link" href="#" id="user-options" data-toggle="dropdown"
-                            aria-haspopup="true" aria-expanded="false">
+                        <a class="nav-link" href="#" id="user-options" data-toggle="dropdown"
+                            aria-haspopup="true" aria-expanded="false" style="color: #e0e0e0;">
                             <div class="text-center">
                                 <div><i class="fas fa-user fa-lg"></i></div>
                                 <small class="my-0">MY AREA</small>
@@ -86,8 +103,7 @@
                     </li>
 
                     <li class="list-inline-item">
-                        <a class="{% if grand_total %}text-info font-weight-bold{% else %}text-black{% endif %} nav-link"
-                            href="">
+                        <a class="nav-link" href="{% url 'view_wishlist' %}" style="color: #e0e0e0;">
                             <div class="text-center">
                                 <div><i class="fas fa-heart"></i></div>
                                 <div>
@@ -97,8 +113,8 @@
                     </li>
 
                     <li class="list-inline-item">
-                        <a class="{% if grand_total %}text-info font-weight-bold{% else %}text-black{% endif %} nav-link"
-                            href="{% url 'view_bag' %}">
+                        <a class="{% if grand_total %}text-info font-weight-bold{% endif %} nav-link"
+                            href="{% url 'view_bag' %}" style="color: #e0e0e0;">
                             <div class="text-center">
                                 <div><i class="fas fa-shopping-bag fa-lg"></i></div>
                                 <div>
@@ -113,8 +129,8 @@
                 </ul>
             </div>
         </div>
-        <div class="row bg-white">
-            <nav class="navbar navbar-expand-lg navbar-light w-100">
+        <div class="row" style="background-color: #2a2a2a;">
+            <nav class="navbar navbar-expand-lg navbar-dark w-100">
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#main-nav"
                     aria-controls="main-nav" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
@@ -124,7 +140,7 @@
             </nav>
         </div>
         <div id="delivery-banner" class="row text-center">
-            <div class="col bg-black text-white">
+            <div class="col text-white" style="background-color: #0d0d0d;">
                 <h4 class="logo-font my-1">Free delivery on orders over €{{ free_delivery_threshold }}!</h4>
             </div>
         </div>
@@ -178,7 +194,7 @@
                     <h3>SOCIAL</h3>
                         <li>FACEBOOK<a href="https://www.facebook.com" target="_blank" class="fa fa-facebook"></a>
                         </li>
-                        <li>TWITTER<a href="https://www.twitter.com" target="_blank" class="fa fa-twitter"></a></li>
+                        <li>X<a href="https://www.x.com" target="_blank" class="fa-brands fa-x-twitter"></a></li>
                         <li>INSTAGRAM<a href="https://www.instagram.com" target="_blank" class="fa fa-instagram"></a></li>
                 </ul>
             </div>
@@ -202,6 +218,17 @@
         $(document).ready(function () {
             $(".sidenav").sidenav();
         })
+    </script>
+
+    <!-- PWA Service Worker Registration -->
+    <script>
+        if ('serviceWorker' in navigator) {
+            window.addEventListener('load', () => {
+                navigator.serviceWorker.register('/static/sw.js')
+                    .then(reg => console.log('Service Worker registered'))
+                    .catch(err => console.log('Service Worker registration failed'));
+            });
+        }
     </script>
 
 </body>

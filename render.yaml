@@ -1,0 +1,22 @@
+services:
+  - type: web
+    name: mega-boutique
+    env: python
+    buildCommand: pip install -r requirements.txt && python manage.py migrate
+    startCommand: gunicorn mega_boutique.wsgi:application
+    envVars:
+      - key: PYTHON_VERSION
+        value: 3.12.1
+      - key: SECRET_KEY
+        generateValue: true
+      - key: DEBUG
+        value: False
+      - key: DATABASE_URL
+        fromDatabase:
+          name: mega-boutique-db
+          property: connectionString
+
+databases:
+  - name: mega-boutique-db
+    databaseName: mega_boutique
+    user: mega_boutique

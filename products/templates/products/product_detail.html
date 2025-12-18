@@ -37,11 +37,24 @@
                         </a>
                     </p>
                     {% endif %}
-                    {% if product.rating %}
-                        <small class="text-muted"><i class="fas fa-star mr-1"></i>{{ product.rating }} / 5</small>
-                    {% else %}
-                        <small class="text-muted">No Rating</small>
-                    {% endif %}
+                    <div class="rating-display mb-2">
+                        {% if average_rating > 0 %}
+                            <span class="stars">
+                                {% for i in "12345" %}
+                                    {% if forloop.counter <= average_rating %}
+                                        <i class="fas fa-star text-warning"></i>
+                                    {% elif forloop.counter <= average_rating|add:"0.5" %}
+                                        <i class="fas fa-star-half-alt text-warning"></i>
+                                    {% else %}
+                                        <i class="far fa-star text-warning"></i>
+                                    {% endif %}
+                                {% endfor %}
+                            </span>
+                            <small class="text-muted ml-2">{{ average_rating }} ({{ rating_count }} review{{ rating_count|pluralize }})</small>
+                        {% else %}
+                            <small class="text-muted">No ratings yet</small>
+                        {% endif %}
+                    </div>
                     {% if request.user.is_superuser %}
                         <small class="ml-3">
                             <a href="{% url 'edit_product' product.id %}">Edit</a> | 
@@ -56,12 +69,21 @@
                             {% if s %}
                                 <div class="col-12">
                                     <p><strong>Size:</strong></p>
-                                    <select class="form-control rounded-0 w-50" name="product_size" id='id_product_size'>
-                                        <option value="xs">XS</option>
-                                        <option value="s">S</option>
-                                        <option value="m" selected>M</option>
-                                        <option value="l">L</option>
-                                        <option value="xl">XL</option>
+                                    <select class="form-control rounded-0 w-50" name="product_size" id='id_product_size' style="background-color: #2a2a2a; color: #e0e0e0; border-color: #444;">
+                                        <option value="s">Small</option>
+                                        <option value="m" selected>Medium</option>
+                                        <option value="l">Large</option>
+                                        <option value="xl">Extra Large</option>
+                                    </select>
+                                </div>
+                            {% else %}
+                                <div class="col-12">
+                                    <p><strong>Size:</strong></p>
+                                    <select class="form-control rounded-0 w-50" name="product_size" id='id_product_size' style="background-color: #2a2a2a; color: #e0e0e0; border-color: #444;">
+                                        <option value="s">Small</option>
+                                        <option value="m" selected>Medium</option>
+                                        <option value="l">Large</option>
+                                        <option value="xl">Extra Large</option>
                                     </select>
                                 </div>
                             {% endif %}
@@ -93,7 +115,7 @@
                                 </div>
                             </div>
 
-                            <div class="col{% if s %}-12 mt-2{% endif %}">
+                            <div class="col-12 mt-2">
                                 <a href="{% url 'products' %}" class="btn btn-outline-black rounded-0 mt-5">
                                     <span class="icon">
                                         <i class="fas fa-chevron-left"></i>
@@ -101,11 +123,97 @@
                                     <span class="text-uppercase">Keep Shopping</span>
                                 </a>
                                 <input type="submit" class="btn btn-black rounded-0 text-uppercase mt-5" value="Add to Bag">
+                                
+                                {% if user.is_authenticated %}
+                                    {% if in_wishlist %}
+                                        <a href="{% url 'remove_from_wishlist' product.id %}" class="btn btn-danger rounded-0 mt-5">
+                                            <i class="fas fa-heart"></i> Remove from Wishlist
+                                        </a>
+                                    {% else %}
+                                        <a href="{% url 'add_to_wishlist' product.id %}" class="btn btn-outline-danger rounded-0 mt-5">
+                                            <i class="far fa-heart"></i> Add to Wishlist
+                                        </a>
+                                    {% endif %}
+                                {% else %}
+                                    <a href="{% url 'account_login' %}" class="btn btn-outline-danger rounded-0 mt-5">
+                                        <i class="far fa-heart"></i> Login to Wishlist
+                                    </a>
+                                {% endif %}
                             </div>
                             <input type="hidden" name="redirect_url" value="{{ request.path }}">
                             {% endwith %}
                         </div>
                     </form>
+                </div>
+            </div>
+        </div>
+
+        <!-- Reviews Section -->
+        <div class="row mt-5">
+            <div class="col-12 col-lg-8 offset-lg-2">
+                <div class="card" style="background-color: #2a2a2a; border-color: #444;">
+                    <div class="card-body">
+                        <h4 class="mb-4">Customer Reviews</h4>
+                        
+                        <!-- Add/Edit Review Form -->
+                        {% if user.is_authenticated %}
+                            <div class="review-form mb-4 p-3" style="background-color: #1a1a1a; border-radius: 5px;">
+                                <h5>{% if user_review %}Update Your Review{% else %}Write a Review{% endif %}</h5>
+                                <form method="POST" action="{% url 'add_review' product.id %}">
+                                    {% csrf_token %}
+                                    <div class="form-group">
+                                        <label>Rating:</label>
+                                        <div class="star-rating">
+                                            {% for i in "12345" %}
+                                                <input type="radio" name="rating" value="{{ forloop.counter }}" id="star{{ forloop.counter }}" 
+                                                    {% if user_review and user_review.rating == forloop.counter %}checked{% endif %}
+                                                    {% if not user_review and forloop.counter == 5 %}checked{% endif %}>
+                                                <label for="star{{ forloop.counter }}"><i class="fas fa-star"></i></label>
+                                            {% endfor %}
+                                        </div>
+                                    </div>
+                                    <div class="form-group">
+                                        <label for="comment">Comment (optional):</label>
+                                        <textarea class="form-control" name="comment" id="comment" rows="3" 
+                                            style="background-color: #2a2a2a; color: #e0e0e0; border-color: #444;">{% if user_review %}{{ user_review.comment }}{% endif %}</textarea>
+                                    </div>
+                                    <button type="submit" class="btn btn-primary">Submit Review</button>
+                                </form>
+                            </div>
+                        {% else %}
+                            <p class="text-muted"><a href="{% url 'account_login' %}">Login</a> to write a review</p>
+                        {% endif %}
+
+                        <!-- Display Reviews -->
+                        <div class="reviews-list">
+                            {% if reviews %}
+                                {% for review in reviews %}
+                                    <div class="review-item mb-3 p-3" style="background-color: #1a1a1a; border-radius: 5px;">
+                                        <div class="d-flex justify-content-between align-items-start">
+                                            <div>
+                                                <strong>{{ review.user.username }}</strong>
+                                                <div class="stars">
+                                                    {% for i in "12345" %}
+                                                        {% if forloop.counter <= review.rating %}
+                                                            <i class="fas fa-star text-warning"></i>
+                                                        {% else %}
+                                                            <i class="far fa-star text-warning"></i>
+                                                        {% endif %}
+                                                    {% endfor %}
+                                                </div>
+                                            </div>
+                                            <small class="text-muted">{{ review.created_at|date:"M d, Y" }}</small>
+                                        </div>
+                                        {% if review.comment %}
+                                            <p class="mt-2 mb-0">{{ review.comment }}</p>
+                                        {% endif %}
+                                    </div>
+                                {% endfor %}
+                            {% else %}
+                                <p class="text-muted">No reviews yet. Be the first to review this product!</p>
+                            {% endif %}
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
@@ -115,4 +223,49 @@
 {% block postloadjs %}
 {{ block.super }}
 {% include 'products/includes/quantity_input_script.html' %}
+
+<style>
+/* Star Rating Input */
+.star-rating {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: flex-end;
+    gap: 5px;
+}
+
+.star-rating input[type="radio"] {
+    display: none;
+}
+
+.star-rating label {
+    cursor: pointer;
+    font-size: 2rem;
+    color: #444;
+    transition: color 0.2s;
+}
+
+.star-rating input[type="radio"]:checked ~ label,
+.star-rating label:hover,
+.star-rating label:hover ~ label {
+    color: #ffc107;
+}
+
+/* Responsive Wishlist Button */
+@media (max-width: 768px) {
+    .btn.mt-5 {
+        margin-top: 1rem !important;
+        width: 100%;
+        margin-bottom: 0.5rem;
+    }
+}
+
+/* Review Cards */
+.review-item {
+    transition: transform 0.2s;
+}
+
+.review-item:hover {
+    transform: translateX(5px);
+}
+</style>
 {% endblock %}

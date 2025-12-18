@@ -1,4 +1,6 @@
 from django.db import models
+from django.contrib.auth.models import User
+from django.db.models import Avg
 
 
 class Category(models.Model):
@@ -29,3 +31,43 @@ class Product(models.Model):
 
     def __str__(self):
         return self.name
+    
+    def get_average_rating(self):
+        """Calculate average rating from customer reviews"""
+        avg = self.reviews.aggregate(Avg('rating'))['rating__avg']
+        return round(avg, 1) if avg else 0
+    
+    def get_rating_count(self):
+        """Get total number of ratings"""
+        return self.reviews.count()
+
+
+class ProductReview(models.Model):
+    """Customer reviews and ratings for products"""
+    product = models.ForeignKey(Product, on_delete=models.CASCADE, related_name='reviews')
+    user = models.ForeignKey(User, on_delete=models.CASCADE)
+    rating = models.IntegerField(choices=[(i, i) for i in range(1, 6)])
+    comment = models.TextField(blank=True)
+    created_at = models.DateTimeField(auto_now_add=True)
+    updated_at = models.DateTimeField(auto_now=True)
+
+    class Meta:
+        unique_together = ('product', 'user')
+        ordering = ['-created_at']
+
+    def __str__(self):
+        return f'{self.user.username} - {self.product.name} ({self.rating}★)'
+
+
+class Wishlist(models.Model):
+    """User wishlist for saving favorite products"""
+    user = models.ForeignKey(User, on_delete=models.CASCADE, related_name='wishlist')
+    product = models.ForeignKey(Product, on_delete=models.CASCADE)
+    added_at = models.DateTimeField(auto_now_add=True)
+
+    class Meta:
+        unique_together = ('user', 'product')
+        ordering = ['-added_at']
+
+    def __str__(self):
+        return f'{self.user.username} - {self.product.name}'

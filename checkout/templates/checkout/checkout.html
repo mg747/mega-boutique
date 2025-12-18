@@ -58,7 +58,7 @@
                     </div>
                 {% endfor %}
                 <hr class="my-0">
-                <div class="row text-black text-right">
+                <div class="row text-right" style="color: #e0e0e0;">
                     <div class="col-7 offset-2">
                         <p class="my-0">Order Total:</p>
                         <p class="my-0">Delivery:</p>
@@ -75,13 +75,13 @@
                 <p class="text-muted">Please fill out the form below to complete your order</p>
                 <form action="{% url 'checkout' %}" method="POST" id="payment-form">
                     {% csrf_token %}
-                    <fieldset class="rounded px-3 mb-5">
-                        <legend class="fieldset-label small text-black px-2 w-auto">Details</legend>
+                    <fieldset class="rounded px-3 mb-5" style="border: 1px solid #444;">
+                        <legend class="fieldset-label small px-2 w-auto" style="color: #fff;">Details</legend>
                         {{ order_form.full_name | as_crispy_field }}
                         {{ order_form.email | as_crispy_field }}
                     </fieldset>
-                    <fieldset class="rounded px-3 mb-5">
-                        <legend class="fieldset-label small text-black px-2 w-auto">Delivery</legend>
+                    <fieldset class="rounded px-3 mb-5" style="border: 1px solid #444;">
+                        <legend class="fieldset-label small px-2 w-auto" style="color: #fff;">Delivery</legend>
                         {{ order_form.phone_number | as_crispy_field }}
                         {{ order_form.street_address1 | as_crispy_field }}
                         {{ order_form.street_address2 | as_crispy_field }}
@@ -101,8 +101,8 @@
 							{% endif %}
 						</div>
                     </fieldset>
-                    <fieldset class="px-3">
-                        <legend class="fieldset-label small text-black px-2 w-auto">Payment</legend>
+                    <fieldset class="px-3" style="border: 1px solid #444;">
+                        <legend class="fieldset-label small px-2 w-auto" style="color: #fff;">Payment</legend>
                         <!-- A Stripe card element will go here -->
                         <div class="mb-3" id="card-element"></div>
 

@@ -2,6 +2,8 @@ from django.shortcuts import render, redirect, reverse, get_object_or_404, HttpR
 from django.views.decorators.http import require_POST
 from django.contrib import messages
 from django.conf import settings
+from django.core.mail import send_mail
+from django.template.loader import render_to_string
 
 from .forms import OrderForm
 from .models import Order, OrderLineItem
@@ -171,6 +173,9 @@ def checkout_success(request, order_number):
         Your order number is {order_number}. A confirmation \
         email will be sent to {order.email}.')
 
+    # Send confirmation email
+    _send_confirmation_email(order)
+
     if 'bag' in request.session:
         del request.session['bag']
 
@@ -180,3 +185,53 @@ def checkout_success(request, order_number):
     }
 
     return render(request, template, context)
+
+
+def _send_confirmation_email(order):
+    """Send the user a confirmation email"""
+    cust_email = order.email
+    subject = f'Mega Boutique - Order Confirmation {order.order_number}'
+    body = f"""
+Thank you for your order at Mega Boutique!
+
+Order Number: {order.order_number}
+Order Date: {order.date}
+
+Order Details:
+"""
+    
+    for item in order.lineitems.all():
+        if item.product_size:
+            body += f"\n- {item.product.name} (Size: {item.product_size}) x {item.quantity} = €{item.lineitem_total}"
+        else:
+            body += f"\n- {item.product.name} x {item.quantity} = €{item.lineitem_total}"
+    
+    body += f"""
+
+Order Total: €{order.order_total}
+Delivery: €{order.delivery_cost}
+Grand Total: €{order.grand_total}
+
+Delivery Address:
+{order.full_name}
+{order.street_address1}
+{order.street_address2 or ''}
+{order.town_or_city}
+{order.county or ''}
+{order.postcode or ''}
+{order.country}
+
+We'll send your order to the address above.
+
+Thank you for shopping with us!
+
+Mega Boutique Team
+"""
+    
+    send_mail(
+        subject,
+        body,
+        settings.DEFAULT_FROM_EMAIL,
+        [cust_email],
+        fail_silently=False,
+    )
